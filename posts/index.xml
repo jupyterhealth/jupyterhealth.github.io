@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jupyter Health</title>
+    <link>https://jupyterhealth.github.io/posts/</link>
+    <description>Recent content in Posts on Jupyter Health</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2023 08:30:00 -0700</lastBuildDate>
+    <atom:link href="https://jupyterhealth.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mypost1</title>
+      <link>https://jupyterhealth.github.io/posts/mypost1/</link>
+      <pubDate>Tue, 21 Nov 2023 13:14:40 -0800</pubDate>
+      <guid>https://jupyterhealth.github.io/posts/mypost1/</guid>
+      <description>Not a lot going on yet</description>
+    </item>
+    <item>
+      <title>mypost3</title>
+      <link>https://jupyterhealth.github.io/posts/new-mypost3/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>https://jupyterhealth.github.io/posts/new-mypost3/</guid>
+      <description>Well, here is an image!
+That was something.</description>
+    </item>
+    <item>
+      <title>mypost2</title>
+      <link>https://jupyterhealth.github.io/posts/mypost2/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>https://jupyterhealth.github.io/posts/mypost2/</guid>
+      <description>Hmm&amp;hellip; For some reason still nothing</description>
+    </item>
+  </channel>
+</rss>
