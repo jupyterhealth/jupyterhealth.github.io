@@ -1,0 +1,4 @@
+baseURL = 'https://jupyterhealth.github.io/'
+languageCode = 'en-us'
+title = 'Jupyter Health'
+theme = "vixcon-hugo"
