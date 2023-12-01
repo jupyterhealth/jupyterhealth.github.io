@@ -1,8 +1,0 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/jupyterhealth/jupyterhealth.github.io.git
-	branch = main
-[submodule "jupyterhealth/public2"]
-	path = jupyterhealth/public2
-	url = https://github.com/jupyterhealth/store.git
-	branch = main
