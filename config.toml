@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.org"
-title = "Vixcon"
+title = "Jupyter"
 theme = "vixcon-hugo"
 # post pagination
 paginate = "4"
