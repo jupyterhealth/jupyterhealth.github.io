@@ -11,7 +11,7 @@ banner:
 ########################## timer #################################
 timer:
   enable : true
-  title : "**Count the day** <br> until conference start"
+  title : "Add text"
   # set timer
   year: "2020"
   month: "09"
@@ -22,7 +22,7 @@ timer:
 event:
   enable : true
   title_outline : "event"
-  title : "The New Era of Tech Companies"
+  title : "Add text"
   image_back : "images/about/h1-gallery-img-7.jpg"
   image_front : "images/about/main-home-img-1.jpg"
   content : "Add text"
