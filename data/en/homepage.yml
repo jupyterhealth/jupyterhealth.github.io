@@ -25,8 +25,7 @@ event:
   title : "The New Era of Tech Companies"
   image_back : "images/about/h1-gallery-img-7.jpg"
   image_front : "images/about/main-home-img-1.jpg"
-  content : "Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aeneansollicitudin, lorem quis bibendum
-              auctonisi elit consequat ipsum nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursusa sit nibh vel velit."
+  content : "Add text"
   button:
     enable : true
     label : "Discover More"
@@ -35,8 +34,8 @@ event:
 ######################### Call to action #########################
 cta:
   enable : true
-  subtitle : "10% Sale offer for early birds"
-  title : "Meet top **digital masters** <br> & influencers in a unique **3-days** experience."
+  subtitle : ""
+  title : "Add text"
   image : "images/banner/rev-slider-09.png"
   button:
     enable : true
@@ -48,19 +47,19 @@ feature:
   enable: true
   feature_item: 
     # feature item loop
-    - name : "Valuable Insight"
+    - name : "Add text"
       icon : "tf-ion-android-microphone"
-      content : "Events Drinks and Dancing are hosting an After Party and YOU ARE INVITED!!"
+      content : "Add text"
       
     # feature item loop
-    - name : "Global Audience"
+    - name : "Add text"
       icon : "tf-ion-android-globe"
-      content : "Starting a mentoring program might be the closest you'll ever get to making a business decision that has exclusively positive impact."
+      content : "Add text"
       
     # feature item loop
-    - name : "Great Community"
+    - name : "Add text"
       icon : "tf-ion-android-share"
-      content : "Networking is the exchange of information and ideas among people with a common profession or special interest, usually in an informal social setting."
+      content : "Add text"
 
 ####################### Schedule #############################
 schedule:
