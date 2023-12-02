@@ -39,7 +39,7 @@ cta:
   image : "images/banner/rev-slider-09.png"
   button:
     enable : true
-    label : "get ticket"
+    label : "Add text"
     link : "pricing"
 
 ############################# Feature ###########################
