@@ -74,8 +74,8 @@ pricing:
 ########################## speaker ##########################
 speaker:
   enable : true
-  title_outline : "Speakers"
-  title : "Who're speaking"
+  title_outline : "Add text"
+  title : "People"
   content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
   # speaker content comes from "content/speaker" folder
 
