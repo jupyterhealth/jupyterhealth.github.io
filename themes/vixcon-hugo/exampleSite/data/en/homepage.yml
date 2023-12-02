@@ -1,9 +1,8 @@
 ############################# banner ################################
 banner:
   enable : true
-  title : "The future <br> & Tech Expo"
+  title : "Jupyter Health"
   bg_image: "images/banner/Jupyter back.jpg"
-  date_time : "November 12, at 10.00am"
   button:
     enable : "Discover more"
     label : "Discover more"
