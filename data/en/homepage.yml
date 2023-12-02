@@ -4,8 +4,8 @@ banner:
   title : "Jupyter Health"
   bg_image: "images/banner/Jupyter back.jpg"
   button:
-    enable : "Discover more"
-    label : "Discover more"
+    enable : "Add text"
+    label : "Add text"
     link : "service"
 
 ########################## timer #################################
@@ -39,7 +39,7 @@ cta:
   image : "images/banner/rev-slider-09.png"
   button:
     enable : true
-    label : "get ticket"
+    label : "Add text"
     link : "pricing"
 
 ############################# Feature ###########################
