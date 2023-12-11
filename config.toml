@@ -1,13 +1,13 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.org"
-title = "Up Business"
-theme = "up-business"
+title = "Vixcon"
+theme = "vixcon-hugo"
 # post pagination
 paginate = "4"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "upbusiness" # get your shortname form here : https://disqus.com
+disqusShortname = "vixcon" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = [] # desable language from here
 
@@ -92,7 +92,7 @@ home = "Home"
 description = "This is meta description"
 author = "Themefisher"
 # email address
-email = "demo@upbusiness.com"
+email = "demo@vixcon.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
