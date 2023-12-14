@@ -4,7 +4,7 @@
 {{- end -}}
 {{- $favicon = slice $favicon | resources.Concat "favicon.ico" -}}
 
-{{- $logo := resources.Get "images/jupyterlogo.png" -}}
+{{- $logo := resources.Get "images/2jupyterlogo.png" -}}
 {{- with .Site.Params.logo -}}
   {{- with resources.Get . -}}
     {{- $logo = . -}}
