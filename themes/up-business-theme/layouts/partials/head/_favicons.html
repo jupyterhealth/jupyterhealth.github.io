@@ -1,5 +1,5 @@
-{{- $favicon := resources.Get "images/favicon.ico" -}}
-{{- with resources.Get "uploads/favicon.ico" -}}
+{{- $favicon := resources.Get "favicon.ico" -}}
+{{- with resources.Get "favicon.ico" -}}
   {{- $favicon = . -}}
 {{- end -}}
 {{- $favicon = slice $favicon | resources.Concat "favicon.ico" -}}
