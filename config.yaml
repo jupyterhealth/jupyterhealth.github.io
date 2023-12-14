@@ -2,7 +2,7 @@ baseURL: "https://www.example.com/"
 theme: "up-business-theme"
 languageCode: "en-us"
 
-title: "Up Business"
+title: "Jupyter Health"
 
 # googleAnalytics: ""
 
@@ -12,7 +12,7 @@ params:
   title: "Jupyter Health"
   description: "Add text"
   images: 
-    - "static/images/banner/Jupyter back.jpg"
+    - "images/Jupyter back.png"
 
   logo: "favicon.ico"
 
