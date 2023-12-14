@@ -2,7 +2,7 @@ enabled: true
 id: "hero"
 
 content:
-  title: "**Jupyter** Health"
+  title: "Jupyter Health"
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est faucibus tellus leo non pellentesque lorem vel. Arcu magna eros, potenti duis."
 
   buttonPrimary:
