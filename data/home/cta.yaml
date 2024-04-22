@@ -2,8 +2,8 @@ enabled: true
 id: "cta"
 
 content:
-  title: "Start your business now!"
-  image: "images/services-web-development.png"
+  title: "Start your contribution now!"
+  image: "images/hands.jpg"
   button:
-    label: "Let's talk"
-    url: "#"
+    label: "Let's go"
+    url: "https://github.com/jupyterhealth"

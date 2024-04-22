@@ -1,8 +1,9 @@
-baseURL: "https://www.example.com/"
+baseURL: "https://www.JupyterHealth.org"
 theme: "up-business-theme"
 languageCode: "en-us"
 
-title: "Jupyter"
+#Tope of the page and bottom of the page
+title: "JupyterHealth"
 
 # googleAnalytics: ""
 
@@ -10,7 +11,7 @@ summaryLength: 20
 
 params:
   title: "Jupyter Health"
-  description: "Add text"
+  description: "Open Software Platform for Health Data Ingestion and Management"
   images: 
     - "images/Jupyter back.png"
 
@@ -22,20 +23,18 @@ params:
     faviconColor: "#000000"
 
   social:
-    dribbble: "#"
-    instagram: "#"
-    facebook: "#"
-    twitter: "#"
+    # dribbble: "#"
+    # instagram: "#"
+    github: "https://github.com/jupyterhealth"
+    twitter: "https://twitter.com/JupyterHealth"
 
   location:
-    - "Add text"
-    - "Add text"
+    - "2594 Hearst Ave. Berkeley, CA 94720"
 
   contact:
-    - "Add text"
-    - "Add text"
+    - "JupyterHealth@berkeley.edu"
 
-  copyright: "© 2023 Up Business All Rights Reserved"
+  copyright: "© 2023 JupyterHealth All Rights Reserved"
 
 menus:
   main:
@@ -43,48 +42,57 @@ menus:
       url: "/#hero"
       weight: 1
 
-    - name: "How we work"
-      url: "/#"
+    - name: "About"
+      url: "/about"
       weight: 2
 
-    - name: "Our team"
+    - name: "Partnerships"
       url: "/#"
       weight: 3
 
-    - name: "Pricing"
-      url: "/#"
+    - name: "Projects"
+      url: "/projects"
       weight: 4
 
     - name: "Blog"
       url: "/blog"
       weight: 5
 
-  buttons:
-    - name: "Book a call"
-      url: "/#"
-      weight: 5
-      pre: "btn btn-primary text-light"
+    - name: "docs"
+      url: "https://jupyterhealth.github.io/software-documentation/"
+      weight: 6
+
+  # buttons:
+  #   - name: "Join us"
+  #     url: "/#"
+  #     weight: 5
+  #     pre: "btn btn-primary text-light"
 
   footer:
     - name: "Home"
-      url: "/#hero"
+      url: "/#"
       weight: 1
 
-    - name: "How we work"
-      url: "/#"
+    - name: "About"
+      url: "/about"
       weight: 2
 
-    - name: "Our team"
+    - name: "Partnerships"
       url: "/#"
       weight: 3
 
-    - name: "Pricing"
-      url: "/#"
+    - name: "Projects"
+      url: "/projects"
       weight: 4
 
     - name: "Blog"
       url: "/blog"
       weight: 5
+
+    - name: "docs"
+      url: "https://jupyterhealth.github.io/software-documentation/"
+      weight: 6
+
 
 taxonomies:
   series: "series"

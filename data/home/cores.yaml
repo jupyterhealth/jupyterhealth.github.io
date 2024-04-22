@@ -1,0 +1,38 @@
+enabled: true
+id: "cores"
+
+content:
+  title: "Our Core Capabilities"
+  text: "JupyterHealth leverages its expertise across four pivotal domains, ensuring a comprehensive and integrated approach to healthcare data management and analysis. Each domain is designed to empower researchers, clinicians, and data scientists with the tools they need to excel in their fields."
+  cards:
+    - image: "images/Data.png"
+      # title: "Data & Standards"
+      title: "Secure and Seamless"
+      text: "Ensure compliance and interoperability across healthcare systems with our robust data management practices and adherence to IEEE/OMH standards."
+      button:
+        # label: "Learn more"
+        # url: "#"
+
+    - image: "images/Computation.png"
+      # title: "Computation"
+      title: "Powerful and Scalable"
+      text: "Leverage cutting-edge container technologies for flexible, cloud-based deployments that scale with your needs, enhancing computational efficiency."
+      button:
+        # label: "Learn more"
+        # url: "#"
+
+    - image: "images/Tools.png"
+      # title: "Tools"
+      title: "Customizable and Versatile"
+      text: "Access a suite of tools from JupyterHub, tailored to meet diverse healthcare and research requirements with user-friendly, adaptable interfaces."
+      button:
+        # label: "Learn more"
+        # url: "#"
+
+    - image: "images/Comm.png"
+      # title: "Community"
+      title: "Collaborative and Supportive"
+      text: "Join a thriving community fostering innovation through shared expertise, and ongoing dialogue among healthcare professionals & technologists."
+      button:
+        # label: "Learn more"
+        # url: "#"

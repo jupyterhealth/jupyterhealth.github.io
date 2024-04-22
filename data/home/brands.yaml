@@ -2,10 +2,11 @@ enabled: true
 id: "brands"
 
 content:
-  title: "We work with customers brands and startups "
+  title: "Founders & Contributors"
   items:
-    - "images/brands-samsumg.png"
-    - "images/brands-google.png"
-    - "images/brands-adobe.png"
-    - "images/brands-spotify.png"
-    - "images/brands-dropbox.png"
+    - "images/GS-BIDS.png"
+    - "images/GS-CPH.png"
+    - "images/GS-Jupyter.png"
+    - "images/GS-2i2c.png"
+    - "images/GS-TCP.png"
+

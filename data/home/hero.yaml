@@ -2,14 +2,14 @@ enabled: true
 id: "hero"
 
 content:
-  title: "Jupyter Health"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est faucibus tellus leo non pellentesque lorem vel. Arcu magna eros, potenti duis."
+  title: "**Jupyter**Health"
+  text: "Open Software Platform for Health Data Ingestion and Management Empowering Researchers, Clinicians and Patients."
 
   buttonPrimary:
     label: "How we work"
-    url: "#"
+    url: "https://github.com/jupyterhealth"
 
   buttonSecondary:
     label: "Let's talk"
-    url: ""
+    url: "https://forms.gle/uBi5VLewwi28H95M7"
 
