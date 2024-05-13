@@ -2,7 +2,7 @@ baseURL: "https://www.JupyterHealth.org"
 theme: "up-business-theme"
 languageCode: "en-us"
 
-#Tope of the page and bottom of the page
+#Top of the page and bottom of the page
 title: "JupyterHealth"
 
 # googleAnalytics: ""
@@ -25,8 +25,8 @@ params:
   social:
     # dribbble: "#"
     # instagram: "#"
-    github: "https://github.com/jupyterhealth"
-    twitter: "https://twitter.com/JupyterHealth"
+    # github: "https://github.com/jupyterhealth"
+    # twitter: "https://twitter.com/JupyterHealth"
 
   location:
     - "2594 Hearst Ave. Berkeley, CA 94720"
@@ -46,21 +46,21 @@ menus:
       url: "/about"
       weight: 2
 
-    - name: "Partnerships"
-      url: "/#"
+    - name: "Community"
+      url: "/community"
       weight: 3
 
-    - name: "Projects"
-      url: "/projects"
-      weight: 4
+    # - name: "Projects"
+    #   url: "/projects"
+    #   weight: 4
 
-    - name: "Blog"
-      url: "/blog"
-      weight: 5
+    # - name: "Blog"
+    #   url: "/blog"
+    #   weight: 5
 
-    - name: "docs"
-      url: "https://jupyterhealth.github.io/software-documentation/"
-      weight: 6
+    # - name: "docs"
+    #   url: "https://jupyterhealth.github.io/software-documentation/"
+    #   weight: 6
 
   # buttons:
   #   - name: "Join us"
@@ -77,23 +77,28 @@ menus:
       url: "/about"
       weight: 2
 
-    - name: "Partnerships"
-      url: "/#"
+    - name: "Community"
+      url: "/community"
       weight: 3
 
-    - name: "Projects"
-      url: "/projects"
-      weight: 4
+    # - name: "Projects"
+    #   url: "/projects"
+    #   weight: 4
 
-    - name: "Blog"
-      url: "/blog"
-      weight: 5
+    # - name: "Blog"
+    #   url: "/blog"
+    #   weight: 5
 
-    - name: "docs"
-      url: "https://jupyterhealth.github.io/software-documentation/"
-      weight: 6
+    # - name: "docs"
+    #   url: "https://jupyterhealth.github.io/software-documentation/"
+    #   weight: 6
 
 
 taxonomies:
   series: "series"
   tags: "tags"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

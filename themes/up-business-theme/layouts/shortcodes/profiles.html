@@ -1,0 +1,5 @@
+{{ with .Site.Data.home.peopleprofiles }}
+  {{ partial "sections/peopleprofiles.html" . }}
+{{ else }}
+  <p>No people profiles data found.</p>
+{{ end }}

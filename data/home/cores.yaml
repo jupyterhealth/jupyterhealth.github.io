@@ -8,31 +8,31 @@ content:
     - image: "images/Data.png"
       # title: "Data & Standards"
       title: "Secure and Seamless"
-      text: "Ensure compliance and interoperability across healthcare systems with our robust data management practices and adherence to IEEE/OMH standards."
+      text: "Ensure compliance and interoperability across healthcare systems with our robust data management practices and adherence to HL7 FHIR and IEEE/Open mHelath standards."
       button:
-        # label: "Learn more"
-        # url: "#"
+        label: "Learn more"
+        url: "cores"
 
     - image: "images/Computation.png"
       # title: "Computation"
       title: "Powerful and Scalable"
       text: "Leverage cutting-edge container technologies for flexible, cloud-based deployments that scale with your needs, enhancing computational efficiency."
       button:
-        # label: "Learn more"
-        # url: "#"
+        label: "Learn more"
+        url: "cores"
 
     - image: "images/Tools.png"
       # title: "Tools"
       title: "Customizable and Versatile"
       text: "Access a suite of tools from JupyterHub, tailored to meet diverse healthcare and research requirements with user-friendly, adaptable interfaces."
       button:
-        # label: "Learn more"
-        # url: "#"
+        label: "Learn more"
+        url: "cores"
 
     - image: "images/Comm.png"
       # title: "Community"
       title: "Collaborative and Supportive"
       text: "Join a thriving community fostering innovation through shared expertise, and ongoing dialogue among healthcare professionals & technologists."
       button:
-        # label: "Learn more"
-        # url: "#"
+        label: "Learn more"
+        url: "cores"

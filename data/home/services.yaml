@@ -7,28 +7,21 @@ content:
   cards:
     - image: "images/Vision.png"
       title: "Unlocking the Full Potential of Personalized Health Data"
-      text: "We aim to empower healthcare systems by enabling advanced, cloud-based analytics and insights across all research and clinical practices. Our open-source platform
-       not only supports seamless integration and real-time data processing but also fosters the development of personalized treatment pathways, significantly enhancing research
-        capabilities and patient care outcomes."
+      text: "We aim to empower healthcare systems by enabling advanced, cloud-based analytics and insights across all research and clinical practices. Our open-source platform not only supports seamless integration and real-time data processing but also fosters the development of personalized treatment pathways, significantly enhancing research capabilities and patient care outcomes."
       button:
         # label: "Learn more"
         # url: "#"
 
     - image: "images/Mission.png"
       title: "Advancing Patient Care through Collaborative Innovation"
-      text: "At JupyterHealth, we are committed to transforming healthcare research and patient care with our open innovative cloud-based solutions enabled by Project Jupyter ecosystem. Our collaborative platform, 
-      supported by a dedicated development team, is continually refined with input from our diverse community of researchers, clinicians, and technologists to meet evolving 
-      healthcare challenges.
- "
+      text: "At JupyterHealth, we are committed to transforming healthcare research and patient care with our open innovative cloud-based solutions. Our collaborative platform, supported by a dedicated development team, is continually refined with input from our diverse community of researchers, clinicians, and technologists to meet evolving healthcare challenges."
       button:
         # label: "Learn more"
         # url: "#"
 
     - image: "images/Values.png"
       title: "Collaborative Foundations"
-      text: "Our core values of innovation, collaboration, and openness drive us to build a healthier future together. With expertise from Project Jupyter, 2i2c, and TCP, 
-      BIDS, CPH and leading healthcare organizations, we create scalable, accessible data management solutions that empower researchers and clinicians. Our commitment to open-source 
-      development and community engagement ensures that we meet today's healthcare challenges and innovate for tomorrow's opportunities."
+      text: "Our core values of innovation, collaboration, and openness drive us to build a healthier future together. With expertise from Project Jupyter, 2i2c, The Commons Project, BIDS, CPH and leading healthcare organizations, we create scalable, accessible data management solutions that empower researchers and clinicians. Our commitment to open-source development and community engagement ensures that we meet today's healthcare challenges and innovate for tomorrow's opportunities."
       button:
         # label: "Learn more"
         # url: "#"

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JupyterHealth</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on JupyterHealth</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>To create a smarter, more connected, and patient-centered future, explore our open platform that enhances data accessibility and supports informed decision-making for healthcare researchers, clinicians, and patients.</description>
+    </item>
+    <item>
+      <title>Community</title>
+      <link>http://localhost:1313/community/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/community/</guid>
+      <description>Are you working on a healthcare project that could benefit from advanced data management and analytics? JupyterHealth invites innovators, developers, researchers, clinicians, and technologists to engage with our platform.</description>
+    </item>
+    <item>
+      <title>JupyterHealth Core Capabilities</title>
+      <link>http://localhost:1313/cores/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cores/</guid>
+      <description>JupyterHealth leverages its expertise across four pivotal domains, ensuring a comprehensive and integrated approach to healthcare data management and analysis. Each domain is designed to empower researchers, clinicians, and data scientists with the tools they need to excel in their fields.</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>Jupyter Health leverages the power of open source and open science to develop and deploy innovative healthcare technologies in partnerships with our broader community.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archives/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TBA by Fernando</title>
+      <link>http://localhost:1313/post/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
