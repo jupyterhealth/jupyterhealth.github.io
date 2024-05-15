@@ -15,7 +15,7 @@ To create a smarter, more connected, and patient-centered future, explore our op
 
 ## **Modular Platform Overview**
 **Empowering Healthcare with Modular Platform:**
-JupyterHealth introduces a modular platform composed of opens-source components that span the entire lifecycle of digital health research, development, and deployment. From data ingestion involving wearable and clinical data to advanced data analysis and presentation via JupyterHub and Voila, each component is designed to operate independently or in conjunction. This modular setup not only supports rigorous health data standards like HL7 FHIR and Open mHealth but also offers customizable environments to suit diverse operational needs – from secure data storage and robust authentication systems to real-time data processing and scalable infrastructure.  
+JupyterHealth introduces a modular platform composed of open-source components that span the entire lifecycle of digital health research, development, and deployment. From data ingestion involving wearable and clinical data to advanced data analysis and presentation via JupyterHub and Voila, each component is designed to operate independently or in conjunction. This modular setup not only supports rigorous health data standards like HL7 FHIR and Open mHealth but also offers customizable environments to suit diverse operational needs – from secure data storage and robust authentication systems to real-time data processing and scalable infrastructure.  
 
 ![JupyterHealthOverview](/images/JupyterHealthDiagram100.png)
 <br>
@@ -31,7 +31,7 @@ JupyterHealth introduces a modular platform composed of opens-source components 
 **Empowering Research and Care with Open Source Technology:** JupyterHealth embodies the ethos of Project Jupyter, bringing open-source software, shareable notebooks, and reproducible code into the healthcare domain. Our vendor-agnostic infrastructure ensures that various research groups and healthcare providers can adopt and adapt our platform without barriers, fostering unprecedented levels of collaboration across the healthcare ecosystem.
 
 **Ensuring Interoperability and Data Sovereignty:**
-In partnership with The Commons Project ([TCP](https://www.thecommonsproject.org/)), we focus on ensuring that our technical stack is interoperable with standard U.S. healthcare protocols. This collaboration not only expands our platform's capabilities but also allows various organizations to develop and implement advanced health technologies. JupyterHealth facilitates seamless data sharing among [The Common Health](https://www.commonhealth.org/) users and healthcare providers, enhancing data sovereignty and empowering users to fully control their data and infrastructure.
+In partnership with The Commons Project ([TCP](https://www.thecommonsproject.org/)), we focus on ensuring that our technical stack is interoperable with standard U.S. healthcare protocols. This collaboration not only expands our platform's capabilities but also allows various organizations to develop and implement advanced health technologies. JupyterHealth facilitates seamless data sharing among [Common Health](https://www.commonhealth.org/) users and healthcare providers, enhancing data sovereignty and empowering users to fully control their data and infrastructure.
 
 **Streamlining Interactive Computing for Healthcare Professionals:**
 In partnership with [Project Jupyter](https://jupyter.org/) and International Interactive Computing Collaboration ([2i2c](https://2i2c.org/)), we advance interactive computing to support healthcare research and clinical practice. JupyterHub centralizes access to computational tools, removing the burden of software management and allowing healthcare professionals to concentrate on patient outcomes rather than IT overhead. Our platform is scalable and customizable, ensuring it meets the diverse needs of the healthcare community.
@@ -39,7 +39,6 @@ In partnership with [Project Jupyter](https://jupyter.org/) and International In
 <br>
 
 ---
-<!-- In HTML -->
 <h2 id="modular-platform"></h2>
 
 ## **JupyterHealth Modular Platform**
@@ -67,7 +66,7 @@ JupyterHealth will be a modular platform consisting of open-source components th
 * **Storage and Authentication:** Securely store and manage access to sensitive health data including PHI. More specifically this will include at least the following:
 	* Reference [SMART on FHIR](https://docs.smarthealthit.org) server capable of storing data as FHIR, Open mHealth, and other formats, and managing authentication and access.
 	* Modules for connecting to common databases and data lakes
-	* Modules to connect existing authentication services, eg via [OIDC](https://openid.net/developers/how-connect-works/.
+	* Modules to connect existing authentication services, eg via [OIDC](https://openid.net/developers/how-connect-works/).
 
 <br> 
 
