@@ -10,8 +10,7 @@ aliases = ["about-us", "about-jupyterhealth", "contact"]
 
 To create a smarter, more connected, and patient-centered future, explore our open platform that enhances data accessibility and supports informed decision-making for healthcare researchers, clinicians, and patients.
 
-<!-- {{< adding-portfolio >}}
-{{< profiles >}} -->
+<!-- [Go to Modular Section](#modular-platform) -->
 
 
 ## **Modular Platform Overview**
@@ -40,6 +39,8 @@ In partnership with [Project Jupyter](https://jupyter.org/) and International In
 <br>
 
 ---
+<!-- In HTML -->
+<h2 id="modular-platform"></h2>
 
 ## **JupyterHealth Modular Platform**
 JupyterHealth will be a modular platform consisting of open-source components that span the life cycle of digital health research, development, and deployment. Our approach ensures that each module can function independently or in conjunction, providing flexibility and scalability to meet diverse healthcare needs.  Below is a detailed overview of each module:
@@ -59,7 +60,7 @@ JupyterHealth will be a modular platform consisting of open-source components th
 
 * **Data Standardization and Transformation:** Utilizing tools to standardize and filter data from disparate health data sources, making it easier to work with and analyze. More specifically this will include at least the following: 
 	* Tools to standardize wearable data to [Open mHealth](https://www.openmhealth.org/documentation/#/overview/get-started) and [FHIR formats](https://build.fhir.org/ig/HL7/cimi-vital-signs/)
-	* templates for other transformations.
+	* Templates for other transformations.
 
 <br>
 

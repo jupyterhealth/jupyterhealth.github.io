@@ -11,7 +11,7 @@ content:
       text: "Ensure compliance and interoperability across healthcare systems with our robust data management practices and adherence to HL7 FHIR and IEEE/Open mHelath standards."
       button:
         label: "Learn more"
-        url: "cores"
+        url: "cores/#data-standards"
 
     - image: "images/Computation.png"
       # title: "Computation"
@@ -19,7 +19,7 @@ content:
       text: "Leverage cutting-edge container technologies for flexible, cloud-based deployments that scale with your needs, enhancing computational efficiency."
       button:
         label: "Learn more"
-        url: "cores"
+        url: "cores/#computation"
 
     - image: "images/Tools.png"
       # title: "Tools"
@@ -27,7 +27,7 @@ content:
       text: "Access a suite of tools from JupyterHub, tailored to meet diverse healthcare and research requirements with user-friendly, adaptable interfaces."
       button:
         label: "Learn more"
-        url: "cores"
+        url: "cores/#tools"
 
     - image: "images/Comm.png"
       # title: "Community"
@@ -35,4 +35,4 @@ content:
       text: "Join a thriving community fostering innovation through shared expertise, and ongoing dialogue among healthcare professionals & technologists."
       button:
         label: "Learn more"
-        url: "cores"
+        url: "cores/#community"

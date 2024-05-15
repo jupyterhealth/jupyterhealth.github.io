@@ -35,16 +35,18 @@ JupyterHealth champions open-source principles and values, welcoming contributio
 **Realistic Expectations:** We are candid about being in the development phase, which allows for substantial customization and influence over future capabilities. Early collaborators are crucial, helping us refine our offerings to better meet the diverse needs of the healthcare sector.
 
 **Potential use cases**
-* **Digital Health Researchers:** Developing new biomarkers by integrating data from wearables and EHRs to enhance treatment strategies.
-* **Public Health Researchers:** Assessing environmental impacts on health, such as studying air quality and respiratory diseases using public and health data.
-* **Population Health Researchers:** Analyzing socio-economic and healthcare access data to improve chronic disease management in underserved areas.
-* **Service Providers and Platform** Providers: Creating predictive models from patient-generated data to reduce readmissions and enhance patient care.
-* **Data Holders and Educational** Institutions: Facilitating access to anonymized data for research and educational purposes, fostering a data-driven approach in medical education and research.
+* **Digital Health Researchers --** e.g. Developing new biomarkers by integrating data from wearables and EHRs to enhance treatment strategies.
+* **Public Health Researchers --** e.g. Assessing environmental impacts on health, such as studying air quality and respiratory diseases using public and health data.
+* **Population Health Researchers --** e.g. Analyzing socio-economic and healthcare access data to improve chronic disease management in underserved areas.
+* **Service and Platform Providers --** e.g. Building predictive algorithms derived from patient-generated data. Service providers could create tools that predict patient health events based on continuous monitoring data, potentially reducing hospital readmissions.
+* **Data Holders and Educational Institutions --** e.g. Facilitating access to anonymized data for research and educational purposes, fostering a data-driven approach in medical education and research.
+
+
 
 ---
 
 ## **Call to Action** 
-**Are you ready to break new ground in healthcare data management and analytics?** We invite you to join us at the forefront of this exciting movement. Whether through direct collaboration or by using JupyterHealth independently,  your involvement is crucial.  Share your innovative ideas with us, and let’s transform the healthcare landscape together. 
+**Are you ready to break new ground in healthcare data management and analytics?** We invite you to join us at the forefront of this exciting movement. Whether through direct collaboration or by using JupyterHealth independently,  your involvement is crucial.  Share your innovative ideas with us, and let’s transform the healthcare landscape together. [Let's talk!](https://docs.google.com/forms/d/e/1FAIpQLSf66RoskvOgvgecltyvo5QMl6lRZLXk6sB4GJqu0I_xJG6ACg/viewform)
 
 
 
