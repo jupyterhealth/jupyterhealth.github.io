@@ -1,12 +1,12 @@
 +++
 title = "Community"
-description = "Collaborate with JupyterHealth"
+description = "Collaborate with JupyterHealth Team"
 date = "2024-04-04"
 aliases = ["partnership", "collaborate-jupyterhealth", "contact"]
 +++
 
 
-Are you working on a healthcare project that could benefit from advanced data management and analytics? JupyterHealth invites innovators, developers, researchers, clinicians, and technologists to engage with our platform. Together, we aim to improve healthcare through innovative technology and collaborative efforts.
+**Are you working on a healthcare project that could benefit from advanced data management and analytics?** JupyterHealth invites innovators, developers, researchers, clinicians, and technologists to engage with our platform. Together, we aim to improve healthcare through innovative technology and collaborative efforts.
 
 JupyterHealth is being built on the foundation of mature [award-winning](https://www.whitehouse.gov/ostp/news-updates/2024/03/21/white-house-office-of-science-technology-policy-announces-year-of-open-science-recognition-challenge-winners/) platforms, and standards, yet as an initiative, it is just beginning. Our future goal is to develop a community engagement similar to that of Project Jupyter ([learn about Jupyter’s community models](https://jupyter.org/community)) and establish a formal partnership structure.
 
@@ -23,25 +23,28 @@ Engaging with JupyterHealth at this early stage offers a unique opportunity to s
 
 JupyterHealth champions open-source principles and values, welcoming contributions without the need for formal partnership:  we embrace open-source principles, that do not require formal partnerships for participation.
 
-- **Explore Our Resources:** Visit our [GitHub repositories](https://github.com/jupyterhealth) to discover and access tools, codes, and comprehensive documentation. You are encouraged to utilize these resources in your projects, adapt them to your needs, or enhance them with your contributions. 
+<!-- {{< adding-portfolio >}} -->
+<!-- {{< profiles >}} -->
 
-- **Contribute to Our Community:** Jupytherhealth thrives on community contributions. Whether you’re improving code, adding documentation, sharing a project idea, or helping to troubleshoot issues, your input helps us grow. Join our community on GitHub to start your contribution today. 
+- **Explore Our Resources:** Visit our [GitHub](https://github.com/jupyterhealth) repositories to discover and access tools, codes, and comprehensive documentation. You are encouraged to utilize these resources in your projects, adapt them to your needs, or enhance them with your contributions. 
 
-- **Utilize JupyterHealth Independently:** Implement JupyterHealth’s tools and modules in your own research or healthcare projects. Our detailed documentation provides all the necessary guidelines to help you integrate our platform smoothly and efficiently, whether you’re connecting with existing systems or embarking on a new project. 
+- **Contribute to Our Community:** Jupytherhealth thrives on community contributions. Whether you’re improving code, adding documentation, sharing a project idea, or helping to troubleshoot issues, your input helps us grow. Join our community on [GitHub](https://github.com/jupyterhealth) to start your contribution today. 
 
-- **Realistic Expectations:** We are candid about being in the development phase, which allows for substantial customization and influence over future capabilities. Early collaborators are crucial, helping us refine our offerings to better meet the diverse needs of the healthcare sector.
+- **Utilize JupyterHealth Independently:** Implement JupyterHealth’s tools and modules in your own research or healthcare projects. Our detailed documentation provides all the necessary guidelines to help you integrate our platform smoothly and efficiently, whether you’re connecting with existing systems or embarking on a new project. Please [contact us](https://docs.google.com/forms/d/e/1FAIpQLSf66RoskvOgvgecltyvo5QMl6lRZLXk6sB4GJqu0I_xJG6ACg/viewform) and let us know about your needs and interests. 
 
-- **Potential use cases**
-	* **Digital Health Researchers:** Developing new biomarkers by integrating data from wearables and EHRs to enhance treatment strategies.
-	* **Public Health Researchers:** Assessing environmental impacts on health, such as studying air quality and respiratory diseases using public and health data.
-	* **Population Health Researchers:** Analyzing socio-economic and healthcare access data to improve chronic disease management in underserved areas.
-	* **Service Providers and Platform** Providers: Creating predictive models from patient-generated data to reduce readmissions and enhance patient care.
-	* **Data Holders and Educational** Institutions: Facilitating access to anonymized data for research and educational purposes, fostering a data-driven approach in medical education and research.
+**Realistic Expectations:** We are candid about being in the development phase, which allows for substantial customization and influence over future capabilities. Early collaborators are crucial, helping us refine our offerings to better meet the diverse needs of the healthcare sector.
+
+**Potential use cases**
+* **Digital Health Researchers:** Developing new biomarkers by integrating data from wearables and EHRs to enhance treatment strategies.
+* **Public Health Researchers:** Assessing environmental impacts on health, such as studying air quality and respiratory diseases using public and health data.
+* **Population Health Researchers:** Analyzing socio-economic and healthcare access data to improve chronic disease management in underserved areas.
+* **Service Providers and Platform** Providers: Creating predictive models from patient-generated data to reduce readmissions and enhance patient care.
+* **Data Holders and Educational** Institutions: Facilitating access to anonymized data for research and educational purposes, fostering a data-driven approach in medical education and research.
 
 ---
 
 ## **Call to Action** 
-Are you ready to break new ground in healthcare data management and analytics? We invite you to join us at the forefront of this exciting movement. Whether through direct collaboration or by using JupyterHealth independently,  your involvement is crucial.  Share your innovative ideas with us, and let’s transform the healthcare landscape together. 
+**Are you ready to break new ground in healthcare data management and analytics?** We invite you to join us at the forefront of this exciting movement. Whether through direct collaboration or by using JupyterHealth independently,  your involvement is crucial.  Share your innovative ideas with us, and let’s transform the healthcare landscape together. 
 
 
 
