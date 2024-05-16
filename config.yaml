@@ -25,8 +25,8 @@ params:
   social:
     # dribbble: "#"
     # instagram: "#"
-    # github: "https:/github.com/jupyterhealth"
-    # twitter: "https:/twitter.com/JupyterHealth"
+    github: "https:/github.com/jupyterhealth"
+    twitter: "https:/twitter.com/JupyterHealth"
 
   location:
     - "2594 Hearst Ave. Berkeley, CA 94720"

@@ -6,7 +6,7 @@ content:
   items:
     - "images/GS-BIDS.png"
     - "images/GS-CPH.png"
-    # - "images/GS-Jupyter.png"
+    - "images/GS-OMH.png"
     - "images/GS-2i2c.png"
     - "images/GS-TCP.png"
 
