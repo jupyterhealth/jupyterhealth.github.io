@@ -18,6 +18,9 @@ To create a smarter, more connected, and patient-centered future, explore our op
 JupyterHealth introduces a modular platform composed of open-source components that span the entire lifecycle of digital health research, development, and deployment. From data ingestion involving wearable and clinical data to advanced data analysis and presentation via JupyterHub and Voila, each component is designed to operate independently or in conjunction. This modular setup not only supports rigorous health data standards like HL7 FHIR and Open mHealth but also offers customizable environments to suit diverse operational needs – from secure data storage and robust authentication systems to real-time data processing and scalable infrastructure.  
 
 ![JupyterHealthOverview](/images/JupyterHealthDiagram100.png)
+
+<!-- {{< adding-diagram id="cta" image="images/JupyterHealthDiagram100.png" >}} -->
+
 <br>
 <br>
 

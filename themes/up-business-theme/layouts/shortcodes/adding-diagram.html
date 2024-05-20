@@ -1,0 +1,5 @@
+{{ with .Site.Data.home.diagram }}
+  {{ partial "sections/diagram.html" . }}
+{{ else }}
+  <p>No diagram data found.</p>
+{{ end }}

@@ -26,11 +26,18 @@ JupyterHealth champions open-source principles and values, welcoming contributio
 <!-- {{< adding-portfolio >}} -->
 <!-- {{< profiles >}} -->
 
-- **Explore Our Resources:** Visit our [GitHub](https://github.com/jupyterhealth) repositories to discover and access tools, codes, and comprehensive documentation. You are encouraged to utilize these resources in your projects, adapt them to your needs, or enhance them with your contributions. 
+- **Explore Our Resources:** Visit our GitHub repositories to discover and access tools, codes, and comprehensive documentation. You are encouraged to utilize these resources in your projects, adapt them to your needs, or enhance them with your contributions. 
+<br>
+<a class="btn btn-outline-primary px-4" href="https://github.com/jupyterhealth"> JupyterHealth GitHub <span class="ms-2"> </span></a>
 
-- **Contribute to Our Community:** Jupytherhealth thrives on community contributions. Whether you’re improving code, adding documentation, sharing a project idea, or helping to troubleshoot issues, your input helps us grow. Join our community on [GitHub](https://github.com/jupyterhealth) to start your contribution today. 
+- **Contribute to Our Community:** Jupytherhealth thrives on community contributions. Whether you’re improving code, adding documentation, sharing a project idea, or helping to troubleshoot issues, your input helps us grow. Join our community on GitHub to start your contribution today.
+<br>
+<a class="btn btn-outline-primary px-4" href="https://github.com/jupyterhealth"> JupyterHealth GitHub <span class="ms-2"> </span></a>
 
-- **Utilize JupyterHealth Independently:** Implement JupyterHealth’s tools and modules in your own research or healthcare projects. Our detailed documentation provides all the necessary guidelines to help you integrate our platform smoothly and efficiently, whether you’re connecting with existing systems or embarking on a new project. Please [contact us](https://docs.google.com/forms/d/e/1FAIpQLSf66RoskvOgvgecltyvo5QMl6lRZLXk6sB4GJqu0I_xJG6ACg/viewform) and let us know about your needs and interests. 
+- **Utilize JupyterHealth Independently:** Implement JupyterHealth’s tools and modules in your own research or healthcare projects. Our detailed documentation provides all the necessary guidelines to help you integrate our platform smoothly and efficiently, whether you’re connecting with existing systems or embarking on a new project. Please contact us and let us know about your interests and needs.
+<br>
+<a class="btn btn-outline-primary px-4" href="https://docs.google.com/forms/d/e/1FAIpQLSf66RoskvOgvgecltyvo5QMl6lRZLXk6sB4GJqu0I_xJG6ACg/viewform"> Contact us <span class="ms-2"> </span></a>
+
 
 **Realistic Expectations:** We are candid about being in the development phase, which allows for substantial customization and influence over future capabilities. Early collaborators are crucial, helping us refine our offerings to better meet the diverse needs of the healthcare sector.
 
@@ -46,7 +53,11 @@ JupyterHealth champions open-source principles and values, welcoming contributio
 ---
 
 ## **Call to Action** 
-**Are you ready to break new ground in healthcare data management and analytics?** We invite you to join us at the forefront of this exciting movement. Whether through direct collaboration or by using JupyterHealth independently,  your involvement is crucial.  Share your innovative ideas with us, and let’s transform the healthcare landscape together. [Let's talk!](https://docs.google.com/forms/d/e/1FAIpQLSf66RoskvOgvgecltyvo5QMl6lRZLXk6sB4GJqu0I_xJG6ACg/viewform)
+**Are you ready to break new ground in healthcare data management and analytics?** We invite you to join us at the forefront of this exciting movement. Whether through direct collaboration or by using JupyterHealth independently,  your involvement is crucial.  Share your innovative ideas with us, and let’s transform the healthcare landscape together. 
+
+<a class="btn btn-outline-primary px-4" href="https://docs.google.com/forms/d/e/1FAIpQLSf66RoskvOgvgecltyvo5QMl6lRZLXk6sB4GJqu0I_xJG6ACg/viewform"> Let's talk <span class="ms-2"> </span></a>
 
 
 
+
+    
