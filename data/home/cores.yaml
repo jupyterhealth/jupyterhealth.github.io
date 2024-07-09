@@ -8,7 +8,7 @@ content:
     - image: "images/Data.png"
       # title: "Data & Standards"
       title: "Secure and Seamless"
-      text: "Ensure compliance and interoperability across healthcare systems with our robust data management practices and adherence to HL7 FHIR and IEEE/Open mHelath standards."
+      text: "Ensure compliance and interoperability across healthcare systems with our robust data management practices and adherence to HL7 FHIR and IEEE/Open mHealth standards."
       button:
         label: "Learn more"
         url: "cores/#data-standards"
