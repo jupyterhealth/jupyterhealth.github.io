@@ -7,12 +7,16 @@ author = "Hugo Authors"
 +++
 
 
+<!-- solution to mobile resizing issue -->
+<img src="/images/AgileHealthPipeline.png" alt="Logo" style="max-width: 100%; height: auto;"><br><br>
+
+
 Jupyter Health leverages the power of open source and open science to develop and deploy innovative healthcare technologies in partnerships with our broader community. Through initiatives like Agile Metabolic Health and future projects, we aim to transform how healthcare data is collected, analyzed, and utilized to improve patient outcomes across the globe.
 
 
 --- 
 
-## **Agile Metabolich Health**
+## **Agile Metabolic Health**
 
 **Pioneering Personalized Treatment for Metabolic Disorders:** Agile Metabolic Health exemplifies our mission by using real-time data from wearable devices to advance diabetes care. This project demonstrates how Jupyter Health’s technology can personalize management strategies, optimize treatment processes, and enhance the quality of life for millions.
 

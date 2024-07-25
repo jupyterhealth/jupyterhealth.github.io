@@ -1,0 +1,5 @@
+{{ with .Site.Data.home.portfolio }}
+  {{ partial "sections/portfolio.html" . }}
+{{ else }}
+  <p>No portfolio data found.</p>
+{{ end }}

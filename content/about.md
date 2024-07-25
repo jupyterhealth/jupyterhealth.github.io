@@ -17,7 +17,10 @@ To create a smarter, more connected, and patient-centered future, explore our op
 **Empowering Healthcare with Modular Platform:**
 JupyterHealth introduces a modular platform composed of open-source components that span the entire lifecycle of digital health research, development, and deployment. From data ingestion involving wearable and clinical data to advanced data analysis and presentation via JupyterHub and Voila, each component is designed to operate independently or in conjunction. This modular setup not only supports rigorous health data standards like HL7 FHIR and Open mHealth but also offers customizable environments to suit diverse operational needs – from secure data storage and robust authentication systems to real-time data processing and scalable infrastructure.  
 
-![JupyterHealthOverview](/images/JupyterHealthDiagram100.png)
+<!-- solution to mobile resizing issue -->
+<img src="/images/JupyterHealthDiagram100.png" alt="Logo" style="max-width: 100%; height: auto;"><br><br>
+
+<!--![JupyterHealthOverview](/images/JupyterHealthDiagram100.png)-->
 
 <!-- {{< adding-diagram id="cta" image="images/JupyterHealthDiagram100.png" >}} -->
 
@@ -49,7 +52,7 @@ JupyterHealth will be a modular platform consisting of open-source components th
 
 <br>
 
-![JupyterHealthDataPiplinePlatform](/images/JupyterHealthDataPlatform100.png)
+<img src="/images/JupyterHealthDataPlatform100.png" alt="Logo" style="max-width: 100%; height: auto;"><br><br>
 
 <br>
 
@@ -93,7 +96,8 @@ JupyterHealth modules are being built on top of trusted open health data interop
 * Wearable and patient-generated data will be [Open mHealth](https://www.openmhealth.org/documentation/#/overview/get-started) and [FHIR](https://build.fhir.org/ig/HL7/cimi-vital-signs/)
 * Authentication will follow [SMART on FHIR](https://docs.smarthealthit.org)
 
-![JupyterHealthOverview](/images/JupyterHealthOverview100.png)
+<img src="/images/JupyterHealthOverview100.png" alt="Logo" style="max-width: 100%; height: auto;"><br><br>
+
 
 This detailed framework underlines our commitment to providing a robust, scalable, and secure environment for healthcare data management and analysis, empowering researchers, clinicians, and technologists to drive innovation in healthcare. 
 
