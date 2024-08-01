@@ -50,9 +50,9 @@ menus:
       url: "/community"
       weight: 3
 
-    - name: "Projects"
-      url: "/projects"
-      weight: 4
+    # - name: "Projects"
+    #   url: "/projects"
+    #   weight: 4
 
     # - name: "Blog"
     #   url: "/blog"
