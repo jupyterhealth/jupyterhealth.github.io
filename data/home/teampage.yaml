@@ -1,0 +1,135 @@
+enabled: true
+id: "teampage"
+
+# Steering
+CoPi:
+  title: "Steering Council"
+  text: "Put something here"
+  cards:
+    - image: "images/Ida_Sim.png"
+      title: "Ida Sim"
+      text1: CPH Co-Faculty Director <br> Professor
+      button:
+        # label: "Learn more"
+        # url: "#"
+
+    - image: "images/Fernando_Perez.png"
+      title: "Fernando Perez"
+      text1: "BIDS Faculty Director Associate Professor"
+      button:
+        # label: "Learn more"
+        # url: "#"
+  # add maryam jp jim
+
+# Leadership Team block
+LeadershipTeam:
+  title: "Open Engineering Team"
+  text: "Put something here"
+  cards:
+    - image: "images/Maryam_Vareth.png"
+      title: "Maryam Vareth"
+      text1: Managing Director<br>Agile Metabolic Health
+      button:
+        # label: "Learn more"
+        # url: "#"
+
+    - image: "images/JP_Pollak.png"
+      title: "JP Pollak"
+      text1: "Co-founder <br> The Commons Project Foundation"
+      button:
+        # label: "Learn more"
+        # url: "#"
+
+    # - image: "images/Sandeep_Kishore.png"
+    #   title: "Sandeep Kishore"
+    #   text1: "Physician-scientist UCSF Hospital Medicine"
+    #   button:
+    #     # label: "Learn more"
+    #     # url: "#"
+
+    - image: "images/Jim_Colliander.png"
+      title: "Jim Colliander"
+      text1: "Co-founder <br> 2i2c"
+      button:
+        # label: "Learn more"
+        # url: "#"
+
+    # - image: "images/Jessilyn_Dunn.png"
+    #   title: "Jessilyn Dunn"
+    #   text1: "Assistant Professor Duke University Big IDEAs Lab"
+    #   button:
+    #     # label: "Learn more"
+    #     # url: "#"
+    
+    # - image: "images/Suneil_Koliwad.png"
+    #   title: "Suneil Koliwad"
+    #   text1: "Endocrinologist <br> UCSF Diabetes Center"
+    #   button:
+    #     # label: "Learn more"
+    #     # url: "#"
+
+    - image: "images/Simona_Carini.png"
+      title: "Simona Carini"
+      text1: "Programmer / Analyst UCSF"
+      button:
+        # label: "Learn more"
+        # url: "#"
+
+    # - image: "images/Beth_Berrean.jpg"
+    #   title: "Beth Berrean"
+    #   text1: "Consulting advisor UCSF"
+    #   button:
+    #     # label: "Learn more"
+    #     # url: "#"
+
+    - image: "images/Ryan_Lovett.png"
+      title: "Ryan Lovett"
+      text1: "Engineer <br> JupyterHub"
+      button:
+        # label: "Learn more"
+        # url: "#"
+
+    # - image: "images/Daniel_Wolfe.jpg"
+    #   title: "Daniel Wolfe"
+    #   text1: "Executive Director UCSF/UC Berkeley Computational Precision Health"
+    #   button:
+    #     # label: "Learn more"
+    #     # url: "#"
+
+    - image: "images/Patrick_Carter.jpg"
+      title: "Patrick Carter"
+      text1: "Clinical & Technology Lead <br> The Commons Project Foundation"
+      button:
+        # label: "Learn more"
+        # url: "#"
+
+    - image: "images/Simon_Johnson.jpg"
+      title: "Simon Johnson"
+      text1: "FILL IN ROLE <br> The Commons Project Foundation"
+      button:
+        # label: "Learn more"
+        # url: "#"
+
+    # - image: "images/Jeffrey_Chambers.jpg"
+    #   title: "Jeffrey Chambers"
+    #   text1: "Project Manager <br> The Commons Project Foundation"
+    #   button:
+    #     # label: "Learn more"
+    #     # url: "#"
+
+    - image: "images/Min_Ragan-Kelley.jpg"
+      title: "Min Ragan-Kelley"
+      text1: "Senior Research Engineer <br> Simula Research Laboratory"
+      button:
+        # label: "Learn more"
+        # url: "#"
+
+    - image: "images/Yuvi_Panda.jpg"
+      title: "Yuvi Panda"
+      text1: "Senior Open Source Infrastructure Engineer <br> 2i2c"
+      button:
+        # label: "Learn more"
+        # url: "#"
+
+
+

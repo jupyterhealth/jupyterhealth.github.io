@@ -50,6 +50,10 @@ menus:
       url: "/community"
       weight: 3
 
+    # - name: "People"
+    #   url: "/people"
+    #   weight: 4
+
     # - name: "Projects"
     #   url: "/projects"
     #   weight: 4
@@ -80,6 +84,10 @@ menus:
     - name: "Community"
       url: "/community"
       weight: 3
+    
+    # - name: "People"
+    #   url: "/people"
+    #   weight: 4
 
     # - name: "Projects"
     #   url: "/projects"
