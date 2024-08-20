@@ -3,49 +3,36 @@ id: "teampage"
 
 # Steering
 CoPi:
-  title: "Steering Council"
-  text: "Put something here"
+  title: "Executive Team"
+  text: ""
   cards:
     - image: "images/Ida_Sim.png"
       title: "Ida Sim"
-      text1: CPH Co-Faculty Director <br> Professor
+      text1: CPH Faculty <br> Co-Director
       button:
         # label: "Learn more"
         # url: "#"
 
     - image: "images/Fernando_Perez.png"
       title: "Fernando Perez"
-      text1: "BIDS Faculty Director Associate Professor"
+      text1: BIDS Faculty <br> Director
       button:
         # label: "Learn more"
         # url: "#"
-  # add maryam jp jim
-
-# Leadership Team block
-LeadershipTeam:
-  title: "Open Engineering Team"
-  text: "Put something here"
-  cards:
+  
     - image: "images/Maryam_Vareth.png"
       title: "Maryam Vareth"
-      text1: Managing Director<br>Agile Metabolic Health
+      text1: BIDS Chief Health Technology Officer
       button:
         # label: "Learn more"
         # url: "#"
 
     - image: "images/JP_Pollak.png"
       title: "JP Pollak"
-      text1: "Co-founder <br> The Commons Project Foundation"
+      text1: "Co-founder <br> The Commons Project"
       button:
         # label: "Learn more"
         # url: "#"
-
-    # - image: "images/Sandeep_Kishore.png"
-    #   title: "Sandeep Kishore"
-    #   text1: "Physician-scientist UCSF Hospital Medicine"
-    #   button:
-    #     # label: "Learn more"
-    #     # url: "#"
 
     - image: "images/Jim_Colliander.png"
       title: "Jim Colliander"
@@ -53,6 +40,21 @@ LeadershipTeam:
       button:
         # label: "Learn more"
         # url: "#"
+
+  # add maryam jp jim
+
+# Leadership Team block
+LeadershipTeam:
+  title: "Engineering Team"
+  text: ""
+  cards:
+
+    # - image: "images/Sandeep_Kishore.png"
+    #   title: "Sandeep Kishore"
+    #   text1: "Physician-scientist UCSF Hospital Medicine"
+    #   button:
+    #     # label: "Learn more"
+    #     # url: "#"
 
     # - image: "images/Jessilyn_Dunn.png"
     #   title: "Jessilyn Dunn"
@@ -70,7 +72,7 @@ LeadershipTeam:
 
     - image: "images/Simona_Carini.png"
       title: "Simona Carini"
-      text1: "Programmer / Analyst UCSF"
+      text1: "UCSF"
       button:
         # label: "Learn more"
         # url: "#"
@@ -84,7 +86,7 @@ LeadershipTeam:
 
     - image: "images/Ryan_Lovett.png"
       title: "Ryan Lovett"
-      text1: "Engineer <br> JupyterHub"
+      text1: "UC Berkeley"
       button:
         # label: "Learn more"
         # url: "#"
@@ -98,14 +100,14 @@ LeadershipTeam:
 
     - image: "images/Patrick_Carter.jpg"
       title: "Patrick Carter"
-      text1: "Clinical & Technology Lead <br> The Commons Project Foundation"
+      text1: "The Commons Project"
       button:
         # label: "Learn more"
         # url: "#"
 
     - image: "images/Simon_Johnson.jpg"
       title: "Simon Johnson"
-      text1: "FILL IN ROLE <br> The Commons Project Foundation"
+      text1: "The Commons Project"
       button:
         # label: "Learn more"
         # url: "#"
@@ -119,14 +121,14 @@ LeadershipTeam:
 
     - image: "images/Min_Ragan-Kelley.jpg"
       title: "Min Ragan-Kelley"
-      text1: "Senior Research Engineer <br> Simula Research Laboratory"
+      text1: "Project Jupyter"
       button:
         # label: "Learn more"
         # url: "#"
 
     - image: "images/Yuvi_Panda.jpg"
       title: "Yuvi Panda"
-      text1: "Senior Open Source Infrastructure Engineer <br> 2i2c"
+      text1: "2i2c"
       button:
         # label: "Learn more"
         # url: "#"
