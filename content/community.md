@@ -58,6 +58,12 @@ JupyterHealth champions open-source principles and values, welcoming contributio
 <a class="btn btn-outline-primary px-4" href="https://docs.google.com/forms/d/e/1FAIpQLSf66RoskvOgvgecltyvo5QMl6lRZLXk6sB4GJqu0I_xJG6ACg/viewform"> Let's talk <span class="ms-2"> </span></a>
 
 
+---
+<br>
+
+
+<!-- solution to mobile resizing issue -->
+<img src="/images/MeetJupyterHealthTeam.png" alt="Logo" style="max-width: 100%; height: auto;"><br><br>
 
 
     
