@@ -13,7 +13,7 @@ params:
   title: "Jupyter Health"
   description: "Open Software Platform for Health Data Ingestion and Management"
   images: 
-    - "images/Jupyter back.png"
+    - "images/hero-image-jupyter.png"
 
   logo: "favicon.ico"
 
