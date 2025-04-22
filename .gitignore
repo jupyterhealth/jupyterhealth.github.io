@@ -10,4 +10,5 @@ resources/
 hugo_stats.json
 
 # Log files
-*.log
+*.log.DS_Store
+public
