@@ -62,9 +62,9 @@ menus:
     #   url: "/blog"
     #   weight: 5
 
-    # - name: "docs"
-    #   url: "https://jupyterhealth.github.io/software-documentation/"
-    #   weight: 6
+    - name: "docs"
+      url: "https://jupyterhealth.github.io/software-documentation/"
+      weight: 4
 
   # buttons:
   #   - name: "Join us"
