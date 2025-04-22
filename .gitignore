@@ -12,3 +12,11 @@ hugo_stats.json
 # Log files
 *.log.DS_Store
 public
+static/.DS_Store
+static/images/.DS_Store
+themes/.DS_Store
+themes/up-business-theme/.DS_Store
+themes/up-business-theme/assets/.DS_Store
+themes/up-business-theme/hugoBasicExample/.DS_Store
+themes/up-business-theme/layouts/.DS_Store
+themes/up-business-theme/layouts/partials/.DS_Store
