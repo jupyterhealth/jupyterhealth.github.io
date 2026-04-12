@@ -63,7 +63,7 @@ JupyterHealth champions open-source principles and values, welcoming contributio
 
 
 <!-- solution to mobile resizing issue -->
-<img src="/images/MeetJupyterHealthTeam2.jpg" alt="Logo" style="max-width: 100%; height: auto;"><br><br>
+<img src="/images/MeetJupyterHealthTeam.png" alt="Logo" style="max-width: 100%; height: auto;"><br><br>
 
 
     
