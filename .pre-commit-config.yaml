@@ -31,5 +31,5 @@ repos:
     hooks:
       - id: prettier
         files: \.(html|md|toml|yml|yaml)
-        exclude: (themes|i18n|.forestry)/.*
+        exclude: (themes)/.*
         args: [--prose-wrap=preserve]
