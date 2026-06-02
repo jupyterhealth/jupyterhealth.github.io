@@ -1,4 +1,4 @@
-{{ with .Site.Data.home.teampage }}
+{{ with hugo.Data.home.teampage }}
   {{ partial "sections/teampage.html" . }}
 {{ else }}
   <p>No people profiles data found.</p>

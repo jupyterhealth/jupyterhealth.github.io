@@ -1,4 +1,4 @@
-{{ with .Site.Data.home.diagram }}
+{{ with hugo.Data.home.diagram }}
   {{ partial "sections/diagram.html" . }}
 {{ else }}
   <p>No diagram data found.</p>

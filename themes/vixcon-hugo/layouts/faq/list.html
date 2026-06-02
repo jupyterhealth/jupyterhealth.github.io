@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index hugo.Data .Site.Language.Lang }}
 
 {{ with $data.faq.faq }}
 <section class="section faq">

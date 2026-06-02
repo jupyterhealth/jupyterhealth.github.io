@@ -1,11 +1,9 @@
-baseURL: "https://www.JupyterHealth.org"
+baseURL: "/"
 theme: "up-business-theme"
-languageCode: "en-us"
+locale: "en-us"
 
 #Top of the page and bottom of the page
 title: "JupyterHealth"
-
-# googleAnalytics: ""
 
 summaryLength: 20
 
