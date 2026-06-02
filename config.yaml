@@ -10,7 +10,7 @@ summaryLength: 20
 params:
   title: "Jupyter Health"
   description: "Open Software Platform for Health Data Ingestion and Management"
-  images: 
+  images:
     - "images/hero-image-jupyter.png"
 
   logo: "favicon.ico"
@@ -82,7 +82,7 @@ menus:
     - name: "Community"
       url: "/community"
       weight: 3
-    
+
     # - name: "People"
     #   url: "/people"
     #   weight: 4
@@ -98,7 +98,6 @@ menus:
     # - name: "docs"
     #   url: "https://jupyterhealth.github.io/software-documentation/"
     #   weight: 6
-
 
 taxonomies:
   series: "series"

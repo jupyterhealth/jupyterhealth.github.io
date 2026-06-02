@@ -1,0 +1,35 @@
+ci:
+  autoupdate_commit_msg: "📈 Update versions for pre-commit hooks"
+  autofix_commit_msg: "🪩 Automated fixes from https://pre-commit.ci"
+  autoupdate_schedule: "weekly"
+  autofix_prs: false
+
+exclude: (themes|i18n|.forestry)/.*
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: "v6.0.0"
+    hooks:
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-yaml
+      - id: debug-statements
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: "v2.4.2"
+    hooks:
+      - id: codespell
+        args: ["-I", "codespell-words"]
+
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: "v3.8.3"
+    hooks:
+      - id: prettier
+        files: \.(html|md|toml|yml|yaml)
+        exclude: (themes|i18n|.forestry)/.*
+        args: [--prose-wrap=preserve]

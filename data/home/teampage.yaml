@@ -19,7 +19,7 @@ CoPi:
       button:
         # label: "Learn more"
         # url: "#"
-  
+
     - image: "images/Maryam_Vareth.png"
       title: "Maryam Vareth"
       text1: BIDS Chief Health Technology Officer
@@ -48,7 +48,6 @@ LeadershipTeam:
   title: "Engineering Team"
   text: ""
   cards:
-
     # - image: "images/Sandeep_Kishore.png"
     #   title: "Sandeep Kishore"
     #   text1: "Physician-scientist UCSF Hospital Medicine"
@@ -62,7 +61,7 @@ LeadershipTeam:
     #   button:
     #     # label: "Learn more"
     #     # url: "#"
-    
+
     # - image: "images/Suneil_Koliwad.png"
     #   title: "Suneil Koliwad"
     #   text1: "Endocrinologist <br> UCSF Diabetes Center"
@@ -132,6 +131,3 @@ LeadershipTeam:
       button:
         # label: "Learn more"
         # url: "#"
-
-
-
