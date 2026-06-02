@@ -6,15 +6,13 @@ aliases = ["projects", "projects-jupyterhealth"]
 author = "Hugo Authors"
 +++
 
-
 <!-- solution to mobile resizing issue -->
-<img src="/images/AgileHealthPipeline.png" alt="Logo" style="max-width: 100%; height: auto;"><br><br>
 
+<img src="/images/AgileHealthPipeline.png" alt="Logo" style="max-width: 100%; height: auto;"><br><br>
 
 Jupyter Health leverages the power of open source and open science to develop and deploy innovative healthcare technologies in partnerships with our broader community. Through initiatives like Agile Metabolic Health and future projects, we aim to transform how healthcare data is collected, analyzed, and utilized to improve patient outcomes across the globe.
 
-
---- 
+---
 
 ## **Agile Metabolic Health**
 
@@ -32,11 +30,12 @@ Core Features:
 
 <!-- ![contribute](/images/contribute.png) -->
 
-
 ## **Get Involved**
+
 Join our efforts to innovate healthcare.Learn more about how Jupyter Health is leading the way in healthcare innovation. Visit our documentation, engage with our projects on GitHub, or contact us directly to see how you can contribute to or benefit from our work.
 
---- 
+---
 
 ## **Join Our Community**
+
 Connect with our community of healthcare professionals, researchers, and technologists dedicated to advancing healthcare through open source and open science. Your involvement can help shape the future of healthcare technology, leading to better outcomes for all.
