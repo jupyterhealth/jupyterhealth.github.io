@@ -1,24 +1,32 @@
-<section class="section hero py-5">
-  <div class="container">
-    <div class="row flex-column flex-xl-row-reverse">
-      <div class="col-12 col-xl-6  d-flex flex-column justify-content-center Jupyter back">
-        {{ partial "utilities/image-fluid" "images/hero-image-jupyter.png" }}
-      </div>
-      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+<section id="{{ .id }}" class="section hero position-relative overflow-hidden">
+  {{ with .content.bgImage }}
+    <img class="hero-bg" src="{{ . }}" alt="" aria-hidden="true">
+  {{ end }}
+  <div class="container position-relative hero-content">
+    <div class="row">
+      <div class="col-12 col-xl-9">
+        {{ with .content.kicker }}
+          <p class="hero-kicker font-monospace text-uppercase fw-bold">
+            <span class="hero-kicker-line"></span><span>{{ . }}</span>
+          </p>
+        {{ end }}
         {{ with .content.title }}
-          <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</h3>
+          <h1 class="hero-title fw-bold">{{ . | markdownify }}</h1>
+        {{ end }}
+        {{ with .content.subtitle }}
+          <p class="hero-subtitle fw-semibold">{{ . | markdownify }}</p>
         {{ end }}
         {{ with .content.text }}
-          <p class="text-center text-black-61 text-xl-start pb-4">{{ . | markdownify }}</p>
+          <p class="hero-text">{{ . | markdownify }}</p>
         {{ end }}
-        <div class="d-flex flex-column flex-xl-row">
-          {{ with .content.buttonPrimary }}
-            <a class="btn btn-primary text-light px-4 my-1" href="{{ .url }}">{{ .label }}</a>
-          {{ end }}
-          {{ with .content.buttonSecondary }}
-            <a class="btn btn-outline-primary px-4 my-1 ms-xl-4" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
-          {{ end }}
-        </div>
+        {{ with .content.tagline }}
+          <p class="hero-tagline font-monospace text-uppercase fw-semibold">{{ . }}</p>
+        {{ end }}
+        {{ with .content.buttonPrimary }}
+          <div class="hero-actions d-flex flex-column flex-sm-row">
+            <a class="btn btn-primary hero-btn text-light" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
+          </div>
+        {{ end }}
       </div>
     </div>
   </div>

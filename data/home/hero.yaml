@@ -2,13 +2,15 @@ enabled: true
 id: "hero"
 
 content:
-  title: "**Jupyter**Health"
-  text: "Open Software Platform for Health Data Ingestion and Management Empowering Researchers, Clinicians and Patients."
+  bgImage: "/images/hero-image-jupyter.png"
+  kicker: "From Project Jupyter"
+  title: "Open infrastructure<br><span class=\"text-primary\">for health care.</span>"
+  subtitle: "Open software. Shared standards. <span class=\"text-primary\">Private data.</span>"
+  text: >
+    A secure, connective layer for integrating wearable, clinical, and patient-generated data into modern computational
+    and AI-enabled health care workflows.
+  tagline: "Customizable · Modular · FHIR-native · AI-ready · Open License"
 
   buttonPrimary:
-    label: "How we work"
-    url: "https://github.com/jupyterhealth"
-
-  buttonSecondary:
-    label: "Let's talk"
-    url: "https://forms.gle/uBi5VLewwi28H95M7"
+    label: "Talk to our team"
+    url: "#contact"
