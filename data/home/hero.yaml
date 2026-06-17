@@ -4,13 +4,12 @@ id: "hero"
 content:
   bgImage: "/images/hero-image-jupyter.png"
   kicker: "From Project Jupyter"
-  title: "Open infrastructure<br><span class=\"text-primary\">for health care.</span>"
-  subtitle: "Open software. Shared standards. <span class=\"text-primary\">Private data.</span>"
+  title: 'Open infrastructure<br><span class="text-primary">for health care.</span>'
+  subtitle: 'Open software. Shared standards. <span class="text-primary">Private data.</span>'
   text: >
     A secure, connective layer for integrating wearable, clinical, and patient-generated data into modern computational
     and AI-enabled health care workflows.
   tagline: "Customizable · Modular · FHIR-native · AI-ready · Open License"
-
   buttonPrimary:
     label: "Talk to our team"
     url: "#contact"
