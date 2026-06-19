@@ -1,0 +1,70 @@
+.section.about {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: $jh-cream;
+
+  @media (min-width: 992px) {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .about-head {
+    max-width: 48rem;
+  }
+
+  .about-lead {
+    font-size: 1.125rem;
+    line-height: 1.7;
+
+    @media (min-width: 768px) {
+      font-size: 1.25rem;
+    }
+  }
+
+  // Team org-chart image in a white card
+  .about-team {
+    margin-top: 5rem;
+  }
+
+  .about-team-card {
+    background-color: #fff;
+    border: 1px solid $jh-border;
+    border-radius: 6px;
+    padding: 1.5rem;
+
+    @media (min-width: 768px) {
+      padding: 2.5rem;
+    }
+  }
+
+  .about-team-img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  // Founded at: university wordmarks
+  .about-founded {
+    margin-top: 4rem;
+  }
+
+  .about-founded-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: $jh-subtle;
+    margin-bottom: 2rem;
+  }
+
+  .about-founded-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem 4rem;
+  }
+
+  .about-founded-logo {
+    width: auto;
+    object-fit: contain;
+  }
+}
