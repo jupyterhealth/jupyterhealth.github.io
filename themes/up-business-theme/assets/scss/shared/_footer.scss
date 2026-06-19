@@ -1,0 +1,80 @@
+.jh-footer {
+  background-color: #fff;
+  border-top: 1px solid $jh-border;
+  padding-top: 3.5rem;
+  padding-bottom: 2.5rem;
+
+  .jh-footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .jh-footer-brand {
+    max-width: 28rem;
+  }
+
+  .jh-footer-logo-link {
+    display: inline-flex;
+    margin-bottom: 1.25rem;
+  }
+
+  .jh-footer-logo {
+    display: block;
+    height: 28px;
+    width: auto;
+  }
+
+  .jh-footer-blurb {
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: $jh-subtle;
+    margin: 0;
+  }
+
+  .jh-footer-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .jh-footer-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: $jh-text;
+    text-decoration: none;
+    transition: color 0.15s ease;
+
+    &:hover,
+    &:focus {
+      color: $primary;
+    }
+
+    svg {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+
+  .jh-footer-bottom {
+    padding-top: 1.5rem;
+    border-top: 1px solid $jh-border;
+  }
+
+  .jh-footer-copy {
+    font-size: 0.75rem;
+    color: $jh-subtle;
+    margin: 0;
+  }
+}
