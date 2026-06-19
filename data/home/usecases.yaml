@@ -1,0 +1,28 @@
+enabled: true
+id: "use-cases"
+
+content:
+  kicker: "02 - Use Cases"
+  title: "From research to care."
+  text: >
+    JupyterHealth is the connective infrastructure for working with health data,
+    from biomarker discovery and real-world evidence through clinical
+    and patient-facing care. Built on open standards and modern scientific
+    computing, it supports use cases within and beyond the clinic.
+  cards:
+    - tag: "Research & Pharma"
+      title: "Biomarker Discovery"
+      text: >
+        Integrate wearable, clinical, and patient-generated data for
+        digital biomarker discovery, longitudinal analysis, and
+        translational research.
+    - tag: "MedTech & Devices"
+      title: "Real-World Validation"
+      text: >
+        Run pilots, collect real-world evidence, and evaluate device performance
+        across clinical and at-home settings.
+    - tag: "Direct-to-Patient"
+      title: "Edge Medicine"
+      text: >
+        Most chronic conditions are managed between clinical visits. Support
+        continuous monitoring and patient-facing care beyond the clinic."
