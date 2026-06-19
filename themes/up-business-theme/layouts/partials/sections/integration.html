@@ -1,0 +1,73 @@
+<section id="{{ .id }}" class="section integration scroll-mt">
+  <div class="container">
+    <div class="integration-grid">
+      <div class="integration-copy">
+        {{ with .content.kicker }}
+          <p class="section-kicker font-monospace text-uppercase">{{ . }}</p>
+        {{ end }}
+        {{ with .content.title }}
+          <h2 class="section-title fw-bold">{{ . }}</h2>
+        {{ end }}
+        {{ with .content.text }}
+          <p class="section-lead">{{ . }}</p>
+        {{ end }}
+        {{ with .content.capabilities }}
+          <ul class="integration-list">
+            {{ range . }}
+              <li class="integration-list-item">
+                <span class="integration-check">{{ partial "icons/check-circle.html" }}</span>
+                <span>{{ . }}</span>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+        {{ with .content.link }}
+          <a class="integration-doc-link" href="{{ .href }}" target="_blank" rel="noreferrer">
+            {{ .label }} <span class="integration-extlink">{{ partial "icons/box-arrow-up-right.html" }}</span>
+          </a>
+        {{ end }}
+      </div>
+
+      {{ with .content.diagram }}
+        <div class="integration-figure">
+          <div class="arch-card">
+            <div class="arch-grid-bg"></div>
+            <div class="arch-stack">
+              {{ with .outputs }}
+                <div class="arch-outputs">
+                  {{ range . }}
+                    <div class="arch-output"><span class="font-monospace">{{ . }}</span></div>
+                  {{ end }}
+                </div>
+              {{ end }}
+              <div class="arch-arrow">{{ partial "icons/arrow-up.html" }}</div>
+              <div class="arch-platform">
+                <div class="arch-platform-head">
+                  <span class="fw-bold">{{ .platform_label }}</span>
+                </div>
+                <div class="arch-platform-body">
+                  <div class="arch-layer-label font-monospace text-uppercase">{{ .hub_label }}</div>
+                  {{ with .hub_chips }}
+                    <div class="arch-chips">
+                      {{ range . }}<span class="arch-chip font-monospace">{{ . }}</span>{{ end }}
+                    </div>
+                  {{ end }}
+                </div>
+                <div class="arch-divider"></div>
+                <div class="arch-platform-body">
+                  <div class="arch-layer-label font-monospace text-uppercase">{{ .exchange_label }}</div>
+                  <div class="arch-exchange font-monospace">{{ .exchange_text }}</div>
+                </div>
+              </div>
+              <div class="arch-arrow">{{ partial "icons/arrow-up.html" }}</div>
+              <div class="arch-sources">
+                <div class="arch-layer-label arch-sources-label font-monospace text-uppercase">{{ .sources_label }}</div>
+                <div class="arch-sources-text font-monospace">{{ .sources_text }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
