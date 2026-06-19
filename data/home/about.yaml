@@ -1,0 +1,19 @@
+enabled: true
+id: "about"
+
+content:
+  kicker: "04 - About the team"
+  title: "Built by experts. Built to last."
+  text: "JupyterHealth is built and maintained by the teams behind the world's most widely adopted open-source data science tools. A long-term, sustainably funded initiative providing stable infrastructure that health care can rely on."
+  team_image:
+    src: "/images/MeetJupyterHealthTeam.png"
+    alt: "JupyterHealth team org chart, grouped by Platform Development, Leadership, and Clinical Operations & Research bands across UC Berkeley, The Commons Project, UCSF, 2i2c, and Duke."
+  founded:
+    label: "Founded at"
+    items:
+      - src: "/images/UCB-wordmark.png"
+        alt: "UC Berkeley"
+        height: 56
+      - src: "/images/UCSF-wordmark.png"
+        alt: "UCSF"
+        height: 96

@@ -1,0 +1,43 @@
+<section id="{{ .id }}" class="section about scroll-mt">
+  <div class="container">
+    <div class="about-head">
+      {{ with .content.kicker }}
+        <p class="section-kicker font-monospace text-uppercase">{{ . }}</p>
+      {{ end }}
+      {{ with .content.title }}
+        <h2 class="section-title fw-bold">{{ . }}</h2>
+      {{ end }}
+      {{ with .content.text }}
+        <p class="section-lead about-lead">{{ . }}</p>
+      {{ end }}
+    </div>
+
+    {{ with .content.team_image }}
+      <div class="about-team">
+        <div class="about-team-card">
+          <img src="{{ .src | relURL }}" alt="{{ .alt }}" class="about-team-img" />
+        </div>
+      </div>
+    {{ end }}
+
+    {{ with .content.founded }}
+      <div class="about-founded">
+        {{ with .label }}
+          <p class="about-founded-label font-monospace text-uppercase">{{ . }}</p>
+        {{ end }}
+        {{ with .items }}
+          <div class="about-founded-logos">
+            {{ range . }}
+              <img
+                src="{{ .src | relURL }}"
+                alt="{{ .alt }}"
+                class="about-founded-logo"
+                style="height: {{ .height }}px;"
+              />
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</section>
