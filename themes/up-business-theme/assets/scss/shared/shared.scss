@@ -3,9 +3,6 @@
 @import "fonts";
 @import "utilities";
 
-@import "header";
-@import "footer";
-
 @import "../sections/hero";
 @import "../sections/section-head";
 @import "../sections/brands";
@@ -14,3 +11,6 @@
 @import "../sections/integration";
 @import "../sections/about";
 @import "../sections/contact";
+
+@import "header";
+@import "footer";
