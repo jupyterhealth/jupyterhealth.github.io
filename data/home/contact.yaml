@@ -1,0 +1,9 @@
+enabled: true
+id: "contact"
+
+content:
+  title: "Talk to the team."
+  text: "Get in touch about pilots, integrations, or deployments."
+  button:
+    label: "jupyterhealth@berkeley.edu"
+    url: "mailto:jupyterhealth@berkeley.edu"
