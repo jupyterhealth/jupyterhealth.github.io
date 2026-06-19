@@ -1,0 +1,26 @@
+<section id="{{ .id }}" class="section platform scroll-mt">
+  <div class="container">
+    <div class="platform-head">
+      {{ with .content.kicker }}
+        <p class="section-kicker font-monospace text-uppercase">{{ . }}</p>
+      {{ end }}
+      {{ with .content.title }}
+        <h2 class="section-title fw-bold">{{ . }}</h2>
+      {{ end }}
+      {{ with .content.text }}
+        <p class="section-lead">{{ . }}</p>
+      {{ end }}
+    </div>
+    <div class="platform-grid">
+      {{ range .content.pillars }}
+        <div class="platform-card">
+          {{ with .icon }}
+            <div class="platform-icon">{{ partial (printf "icons/%s.html" .) }}</div>
+          {{ end }}
+          {{ with .title }}<h3 class="platform-card-title fw-bold">{{ . }}</h3>{{ end }}
+          {{ with .text }}<p class="platform-card-text">{{ . }}</p>{{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
