@@ -2,10 +2,23 @@ enabled: true
 id: "brands"
 
 content:
-  title: "Founders & Contributors"
+  title: "Built on decades of open infrastructure"
   items:
-    - "images/GS-BIDS.png"
-    - "images/GS-CPH.png"
-    - "images/GS-OMH.png"
-    - "images/GS-2i2c.png"
-    - "images/GS-TCP.png"
+    - src: "images/GS-Jupyter.png"
+      alt: "Project Jupyter"
+      height: 52
+    - src: "images/GS-TCP.png"
+      alt: "The Commons Project"
+      height: 34
+    - src: "images/GS-CPH.png"
+      alt: "Computational Precision Health"
+      height: 52
+    - src: "images/GS-BIDS.png"
+      alt: "BIDS, Berkeley Institute for Data Science"
+      height: 46
+    - src: "images/GS-2i2c.png"
+      alt: "2i2c"
+      height: 42
+    - src: "images/GS-OMH.png"
+      alt: "Open mHealth"
+      height: 34

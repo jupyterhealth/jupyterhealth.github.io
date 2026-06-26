@@ -1,0 +1,22 @@
+.section.brands {
+  background-color: #fff;
+  border-bottom: 1px solid $jh-border;
+
+  .brands-kicker {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: $jh-subtle;
+    margin-bottom: 2.5rem;
+  }
+
+  .brands-logos {
+    gap: 2rem 2.5rem;
+  }
+
+  .brand-logo {
+    width: auto;
+    filter: grayscale(100%);
+    opacity: 0.8;
+  }
+}

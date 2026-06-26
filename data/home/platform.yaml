@@ -1,0 +1,20 @@
+enabled: true
+id: "platform"
+
+content:
+  kicker: "01 - Platform"
+  title: "Four pillars. One platform."
+  text: "A unified architecture combining data ingestion, scalable computation, analytical tools, and community governance."
+  pillars:
+    - icon: "database"
+      title: "Data Integrity"
+      text: "Privacy-first data management adhering to HL7 FHIR and IEEE/Open mHealth standards. Secure, compliant, and ready for any health data workload."
+    - icon: "hdd-stack"
+      title: "Run it Anywhere"
+      text: "Containerized and Kubernetes-native. Run it in the public cloud, private cloud, or on-prem behind your firewall."
+    - icon: "wrench"
+      title: "Versatile Tooling"
+      text: "Analytics and visualization built on Jupyter. APIs and standards-based data layers ready for decision support, AI tools, and patient-facing applications to build on."
+    - icon: "unlock"
+      title: "Open by Design"
+      text: "Health infrastructure should outlast its vendors. Every layer is open standards and open code. The data stays private, you control the infrastructure."

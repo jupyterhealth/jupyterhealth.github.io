@@ -1,0 +1,68 @@
+.section.platform {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  border-bottom: 1px solid $jh-border;
+  background-color: #fff;
+
+  @media (min-width: 992px) {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .platform-head {
+    max-width: 48rem;
+    margin-bottom: 5rem;
+  }
+
+  .platform-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    background-color: $jh-border;
+    border: 1px solid $jh-border;
+    border-radius: 4px;
+    overflow: hidden;
+
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .platform-card {
+    background-color: #fff;
+    padding: 2.5rem;
+    transition: background-color 0.2s ease;
+
+    @media (min-width: 992px) {
+      padding: 3.5rem;
+    }
+
+    &:hover {
+      background-color: $jh-cream;
+    }
+  }
+
+  .platform-icon {
+    color: $primary;
+    margin-bottom: 2rem;
+    line-height: 0;
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  .platform-card-title {
+    font-size: 1.5rem;
+    letter-spacing: -0.01em;
+    color: $jh-ink;
+    margin-bottom: 1rem;
+  }
+
+  .platform-card-text {
+    color: $jh-text;
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+}
