@@ -1,0 +1,30 @@
+enabled: true
+id: "integration"
+
+content:
+  kicker: "03 - Integration"
+  title: "Plug in on your terms."
+  text: "Adopt the full platform or integrate individual components into your existing stack. Deploy, customize, and extend the infrastructure to fit your needs."
+  capabilities:
+    - "Deploy in the cloud or on-premise"
+    - "Native support for HL7 FHIR and Open mHealth (IEEE 1752)"
+    - "Open-source under the BSD-3 license"
+  link:
+    label: "View deployment documentation"
+    href: "https://jupyterhealth.github.io/software-documentation/"
+  diagram:
+    outputs:
+      - "Discovery"
+      - "Decision support"
+      - "Remote Care"
+    platform_label: "JupyterHealth Platform"
+    hub_label: "Hub"
+    hub_chips:
+      - "JupyterAI"
+      - "Notebooks"
+      - "Dashboards"
+      - "APIs"
+    exchange_label: "Exchange"
+    exchange_text: "Ingestion · Standardization · Storage"
+    sources_label: "Data Sources"
+    sources_text: "EHRs · devices · wearables · sensors · apps · surveys"

@@ -1,0 +1,24 @@
+<section id="{{ .id }}" class="section use-cases scroll-mt">
+  <div class="container">
+    <div class="use-cases-head">
+      {{ with .content.kicker }}
+        <p class="section-kicker font-monospace text-uppercase">{{ . }}</p>
+      {{ end }}
+      {{ with .content.title }}
+        <h2 class="section-title fw-bold">{{ . }}</h2>
+      {{ end }}
+      {{ with .content.text }}
+        <p class="section-lead">{{ . }}</p>
+      {{ end }}
+    </div>
+    <div class="use-cases-grid">
+      {{ range .content.cards }}
+        <div class="use-case-card">
+          {{ with .tag }}<p class="use-case-tag font-monospace text-uppercase">{{ . }}</p>{{ end }}
+          {{ with .title }}<h3 class="use-case-title fw-bold">{{ . }}</h3>{{ end }}
+          {{ with .text }}<p class="use-case-text">{{ . }}</p>{{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
