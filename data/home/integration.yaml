@@ -27,4 +27,4 @@ content:
     exchange_label: "Exchange"
     exchange_text: "Ingestion · Standardization · Storage"
     sources_label: "Data Sources"
-    sources_text: "EHRs · devices · wearables · sensors · apps · surveys"
+    sources_text: "EHRs · devices · wearables · sensors · surveys"

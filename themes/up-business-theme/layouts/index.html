@@ -4,9 +4,7 @@
   {{ with hugo.Data.home.platform }}{{ partial "sections/platform.html" . }}{{ end }}
   {{ with hugo.Data.home.usecases }}{{ partial "sections/use-cases.html" . }}{{ end }}
   {{ with hugo.Data.home.integration }}{{ partial "sections/integration.html" . }}{{ end }}
-  <!-- {{ with hugo.Data.home.portfolio }}{{ partial "sections/portfolio.html" . }}{{ end }} -->
-  <!-- {{ with hugo.Data.home.services }}{{ partial "sections/services.html" . }}{{ end }} -->
-  <!-- {{ with hugo.Data.home.testimonials }}{{ partial "sections/testimonials.html" . }}{{ end }} -->
-  <!-- {{ with hugo.Data.home.cores }}{{ partial "sections/cores.html" . }}{{ end }}
-  {{ with hugo.Data.home.cta }}{{ partial "sections/cta.html" . }}{{ end }} -->
+  {{ with hugo.Data.home.about }}{{ partial "sections/about.html" . }}{{ end }}
+  {{ with hugo.Data.home.contact }}{{ partial "sections/contact.html" . }}{{ end }}
 {{ end }}
+  

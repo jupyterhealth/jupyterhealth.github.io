@@ -1,0 +1,20 @@
+<section id="{{ .id }}" class="section contact scroll-mt">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="contact-copy">
+        {{ with .content.title }}
+          <h2 class="contact-title fw-bold">{{ . }}</h2>
+        {{ end }}
+        {{ with .content.text }}
+          <p class="contact-lead">{{ . }}</p>
+        {{ end }}
+      </div>
+      {{ with .content.button }}
+        <a class="contact-btn" href="{{ .url }}">
+          <span class="contact-btn-icon">{{ partial "icons/envelope.html" }}</span>
+          {{ .label }}
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</section>

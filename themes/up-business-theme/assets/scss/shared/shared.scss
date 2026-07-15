@@ -3,19 +3,14 @@
 @import "fonts";
 @import "utilities";
 
-@import "header";
-@import "footer";
-
 @import "../sections/hero";
 @import "../sections/section-head";
 @import "../sections/brands";
 @import "../sections/platform";
 @import "../sections/use-cases";
 @import "../sections/integration";
-@import "../sections/portfolio";
-@import "../sections/services";
-@import "../sections/testimonials";
-@import "../sections/cta";
+@import "../sections/about";
+@import "../sections/contact";
 
-@import "../sections/blog-list";
-@import "../sections/blog-single";
+@import "header";
+@import "footer";

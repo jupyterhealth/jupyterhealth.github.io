@@ -1,8 +1,65 @@
-.navbar {
-  .navbar-brand {
-    img {
-      width: auto;
-      max-height: calc(1.4rem + .6vw);
+.jh-navbar {
+  background-color: #fff;
+  border-bottom: 1px solid $jh-border;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 5rem;
+
+  .jh-navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+
+    @media (min-width: 768px) {
+      margin-right: 3rem;
+    }
+  }
+
+  .jh-logo {
+    display: block;
+    height: 32px;
+    width: auto;
+  }
+
+  .jh-nav-links {
+    .nav-link {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: $jh-text;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      transition: color 0.15s ease;
+
+      &:hover,
+      &:focus {
+        color: $primary;
+      }
+    }
+  }
+
+  .jh-nav-utility {
+    @media (min-width: 768px) {
+      gap: 1.5rem;
+    }
+
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: $jh-text;
+      transition: color 0.15s ease;
+
+      &:hover,
+      &:focus {
+        color: $jh-subtitle;
+      }
+
+      svg {
+        width: 1rem;
+        height: 1rem;
+      }
     }
   }
 }
