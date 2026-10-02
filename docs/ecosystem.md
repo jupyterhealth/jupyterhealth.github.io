@@ -1,6 +1,6 @@
 # Technical Components
 
-JupyterHealth is composed of several semi-independent technology projects that are designed to work together as one combined system via the {term}`JupyterHealth hub <hub>`.
+JupyterHealth is composed of several semi-independent technology projects that are designed to work together as the {term}`JupyterHealth platform <platform>`.
 This page lists the documentation for each piece.
 
 - **[JupyterHealth Exchange](https://jupyterhealth.github.io/software-documentation/)**: stores {term}`patient-consented data` and serves it over REST, {term}`FHIR`, and {term}`MCP`. Also handles login for the {term}`Hub`.

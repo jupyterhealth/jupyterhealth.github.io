@@ -1,7 +1,7 @@
 # Community
 
 JupyterHealth follows the [Jupyter Code of Conduct](https://jupyter.org/governance/conduct/code_of_conduct.html).
-See [About the project](about.md) for its origins and governance, and [jupyterhealth.org/community](https://jupyterhealth.org/community/) for how organizations can get involved.
+See [What is JupyterHealth?](about.md) for its origins and governance, and [jupyterhealth.org](https://jupyterhealth.org/#contact) to talk to the team about a deployment or integration.
 
 - Chat in the {term}`#jupyterhealth channel on the Jupyter Zulip <zulip>`.
 - Code lives at [github.com/jupyterhealth](https://github.com/jupyterhealth).

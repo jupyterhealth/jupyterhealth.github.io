@@ -3,11 +3,23 @@
 Terms used across the JupyterHealth documentation.
 
 :::{glossary}
+platform
+: The JupyterHealth platform. The collection of tools that JupyterHealth builds to work together, mainly the {term}`Exchange` and the {term}`Hub`. See [What is JupyterHealth?](about.md).
+
+deployment
+: A running service that someone hosts with JupyterHealth tools, such as the demo deployment at UC Berkeley.
+
+distribution
+: A collection of choices bundled with a JupyterHub (configuration, software, and services) that provide an integrated end-user experience. The {term}`Hub` is a JupyterHub distribution.
+
+data product
+: Something a data scientist creates from health data to share with clinicians or patients, like a dashboard, app, or report. Often built in a notebook and shared with a tool like Voilà or Jupyter Book.
+
 Exchange
 : The JupyterHealth Exchange (JHE). A back-end web service that stores patient-consented health data and serves it through REST, {term}`FHIR`, and MCP APIs. Researchers create studies, patients consent and contribute data, and analysts can query it with the {term}`client library`. See the [Exchange documentation](https://jupyterhealth.github.io/software-documentation/).
 
 Hub
-: The JupyterHealth Hub. A hosted [JupyterHub](https://jupyter.org/hub) that uses authentication from the {term}`Exchange` and an environment with the client library pre-installed. Researchers and data scientists use it to explore data, develop algorithms, build dashboards and apps in notebooks, and deploy them with Voilà for clinicians and other downstream users. The Hub is both a live deployment used for experimentation and development (managed by 2i2c) and a demonstration of how to run the JupyterHealth workflow as a hosted cloud service on your own infrastructure. Its [configuration is public](https://github.com/2i2c-org/infrastructure/tree/main/config/clusters/jupyter-health) so you can replicate it.
+: The JupyterHealth Hub. An opinionated [JupyterHub](https://jupyter.org/hub) {term}`distribution` that is set up alongside an {term}`Exchange`. It uses the Exchange for login and has the {term}`client library` pre-installed. Researchers and data scientists use it to explore data and build {term}`data products <data product>` for clinicians and patients. Its [configuration is public](https://github.com/2i2c-org/infrastructure/tree/main/config/clusters/jupyter-health) so anybody can copy it and reconfigure it for themselves.
 
 client library
 : `jupyterhealth-client`, a Python package for reading data from the Exchange. Returns observations as pandas DataFrames. See the [exchange client documentation](https://jupyterhealth-client.readthedocs.io).

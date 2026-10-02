@@ -7,11 +7,7 @@ site:
 **Open infrastructure for health care.**
 JupyterHealth is a secure, connective layer for bringing wearable, clinical, and {term}`patient-generated data` into modern computational and AI-enabled health care workflows.
 It is open source, built on open standards like {term}`FHIR` and {term}`Open mHealth`, and made for researchers, clinicians, and patients.
-It has three main pieces:
-
-- The {term}`Exchange` stores {term}`patient-consented data` and serves it through REST, FHIR, and {term}`MCP` APIs.
-- The {term}`Hub` is where researchers and data scientists analyze that data, and the platform for building and deploying dashboards and apps for clinicians and other downstream users.
-- The {term}`client library` reads Exchange data from Python for analysis and re-use.
+Its two main pieces are the {term}`Exchange`, which stores {term}`patient-consented data`, and the {term}`Hub`, where people analyze that data and build {term}`data products <data product>` for clinicians and patients.
 
 Here's a diagram of the major workflow we want to enable.[^1]
 
@@ -42,7 +38,7 @@ flowchart BT
 ```
 
 This site describes the project at a high level and points to each component's documentation.
-Read [About the project](about.md) for its origins and primary materials.
+Read [What is JupyterHealth?](about.md) for how the pieces fit together.
 
 :::{note} JupyterHealth is under active development
 These pages describe what the project is building toward. Some pieces are further along than others.
