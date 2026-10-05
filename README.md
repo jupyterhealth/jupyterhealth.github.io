@@ -14,6 +14,19 @@ Preview locally with [nox](https://nox.thea.codes):
 nox -s docs:live
 ```
 
+## How the site is published
+
+Our documentation is built and published via a GitHub workflow that runs `nox -s docs`.
+
+This repository is the org's GitHub Pages site, so it is served at https://docs.jupyterhealth.org.
+Every other repository that's served by GitHub Pages will exist at:
+
+```
+docs.jupyterhealth.org/[reponame]
+```
+
+For example, the docs at [`/hub`](https://github.com/jupyterhealth/hub) are served at https://docs.jupyterhealth.org/hub.
+
 ## Shared navbar, footer, and plugins
 
 This is a MyST site, and provides [shared MyST configuration](https://mystmd.org/guide/configuration#composing-myst-yml) that other documentation sites can use.
