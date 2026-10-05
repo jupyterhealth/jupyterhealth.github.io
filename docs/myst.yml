@@ -3,7 +3,7 @@ extends:
   - ./_site/site.yml
 project:
   title: JupyterHealth Docs
-  github: https://github.com/jupyterhealth/jupyterhealth-docs
+  github: https://github.com/jupyterhealth/jupyterhealth.github.io
   toc:
     - file: index.md
     - file: about.md

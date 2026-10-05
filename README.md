@@ -24,7 +24,7 @@ To reuse that configuration in another MyST site, add this to its `myst.yml`:
 
 ```yaml
 extends:
-  - https://raw.githubusercontent.com/jupyterhealth/jupyterhealth-docs/main/docs/_site/site.yml
+  - https://raw.githubusercontent.com/jupyterhealth/jupyterhealth.github.io/main/docs/_site/site.yml
 ```
 
 Plugins listed there are merged with the site's own `project.plugins`.

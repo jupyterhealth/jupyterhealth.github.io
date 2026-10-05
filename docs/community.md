@@ -12,4 +12,4 @@ See [About the project](about.md) for its origins and governance, and [jupyterhe
 ## Contributing
 
 Open an issue in a component's repository, or ask in {term}`Zulip` if you're not sure where something belongs.
-Fixes to this site go to [jupyterhealth-docs](https://github.com/jupyterhealth/jupyterhealth-docs).
+Fixes to this site go to [jupyterhealth.github.io](https://github.com/jupyterhealth/jupyterhealth.github.io).

@@ -22,7 +22,7 @@ You can try JupyterHealth using the Berkeley demo {term}`Exchange` and {term}`Hu
 1. Create an account on the [Berkeley demo Exchange](https://berkeley-jhe-demo.jupyterhealth.org/) using your invite code.
 2. Open the [Berkeley demo Hub](https://jupyter-health.2i2c.cloud/) to use JupyterLab, where you can create notebooks and use the AI chat interface.
 
-From there, follow the [Explore your data guide](https://jupyterhealth-hub.readthedocs.io/en/latest/run-an-analysis/) to start with a blank notebook or [open the CGM example notebook](https://jupyter-health.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fjupyterhealth%2Fdemos&urlpath=lab%2Ftree%2Fdemos%2Fdashboards%2Fresearcher-view-cgm.ipynb&branch=main) to add it to your Hub workspace.
+From there, follow the [Explore your data guide](https://docs.jupyterhealth.org/hub/run-an-analysis/) to start with a blank notebook or [open the CGM example notebook](https://jupyter-health.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fjupyterhealth%2Fdemos&urlpath=lab%2Ftree%2Fdemos%2Fdashboards%2Fresearcher-view-cgm.ipynb&branch=main) to add it to your Hub workspace.
 
 These instructions and links are specific to the Berkeley demo. If you’re using JupyterHealth through another institution, it may have its own Exchange and Hub, or connect its to Exchange using a different computational environment. Use the URLs and access instructions provided by your institution.
 
@@ -68,18 +68,18 @@ These pages describe what the project is building toward. Some pieces are furthe
 ::::{grid} 1 1 2 2
 
 :::{card} Analyze data and build dashboards on the Hub
-:link: https://jupyterhealth-hub.readthedocs.io/en/latest/
+:link: https://docs.jupyterhealth.org/hub/
 Log in to the {term}`Hub` with your {term}`Exchange` account, pull data into a notebook with the client library, and run your own analyses.
 :::
 
 :::{card} Write Python that uses data from the Exchange
 :link: https://jupyterhealth-client.readthedocs.io
 The {term}`client library` returns observations as pandas DataFrames.
-The [{term}`CGM` tutorial](https://jupyterhealth.github.io/software-documentation/tutorial/tutorial-cgm) is an end-to-end example.
+The [{term}`CGM` tutorial](https://docs.jupyterhealth.org/software-documentation/tutorial/tutorial-cgm) is an end-to-end example.
 :::
 
 :::{card} Run the Exchange for your organization
-:link: https://jupyterhealth.github.io/software-documentation/
+:link: https://docs.jupyterhealth.org/software-documentation/
 Deploy your own {term}`Exchange`.
 The docs cover setup, access control, the FHIR API, and the data model.
 :::

@@ -4,7 +4,7 @@ Terms used across the JupyterHealth documentation.
 
 :::{glossary}
 Exchange
-: The JupyterHealth Exchange (JHE). A back-end web service that stores patient-consented health data and serves it through REST, {term}`FHIR`, and MCP APIs. Researchers create studies, patients consent and contribute data, and analysts can query it with the {term}`client library`. See the [Exchange documentation](https://jupyterhealth.github.io/software-documentation/).
+: The JupyterHealth Exchange (JHE). A back-end web service that stores patient-consented health data and serves it through REST, {term}`FHIR`, and MCP APIs. Researchers create studies, patients consent and contribute data, and analysts can query it with the {term}`client library`. See the [Exchange documentation](https://docs.jupyterhealth.org/software-documentation/).
 
 Hub
 : The JupyterHealth Hub. A hosted [JupyterHub](https://jupyter.org/hub) that uses authentication from the {term}`Exchange` and an environment with the client library pre-installed. Researchers and data scientists use it to explore data, develop algorithms, build dashboards and apps in notebooks, and deploy them with Voilà for clinicians and other downstream users. The Hub is both a live deployment used for experimentation and development (managed by 2i2c) and a demonstration of how to run the JupyterHealth workflow as a hosted cloud service on your own infrastructure. Its [configuration is public](https://github.com/2i2c-org/infrastructure/tree/main/config/clusters/jupyter-health) so you can replicate it.
@@ -34,7 +34,7 @@ EHR
 : Electronic health record. The clinical system a hospital or clinic uses to store patient charts, such as Epic or Cerner.
 
 CGM
-: Continuous glucose monitor. A wearable sensor that records blood glucose every few minutes. The {term}`Exchange` docs include a [CGM tutorial](https://jupyterhealth.github.io/software-documentation/tutorial/tutorial-cgm).
+: Continuous glucose monitor. A wearable sensor that records blood glucose every few minutes. The {term}`Exchange` docs include a [CGM tutorial](https://docs.jupyterhealth.org/software-documentation/tutorial/tutorial-cgm).
 
 MCP
 : Model Context Protocol. An open protocol that lets AI assistants call tools and read data. The {term}`Exchange` exposes an MCP server so AI tools can query health data.
