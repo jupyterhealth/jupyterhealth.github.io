@@ -6,11 +6,11 @@ copyright: © JupyterHealth contributors.
 
 links:
   Documentation:
-    - Docs home: https://jupyterhealth-docs.readthedocs.io
-    - JupyterHealth Exchange: https://jupyterhealth.github.io/software-documentation/
+    - Docs home: https://docs.jupyterhealth.org/
+    - JupyterHealth Exchange: https://docs.jupyterhealth.org/software-documentation/
     - Client library: https://jupyterhealth-client.readthedocs.io
-    - Hub: https://jupyterhealth-hub.readthedocs.io/en/latest/
-    - Demos: https://jupyterhealth.github.io/demos/
+    - Hub: https://docs.jupyterhealth.org/hub/
+    - Demos: https://docs.jupyterhealth.org/demos/
   Community:
     - GitHub: https://github.com/jupyterhealth
     - Chat on Zulip: https://jupyter.zulipchat.com/#narrow/channel/531270-jupyterhealth

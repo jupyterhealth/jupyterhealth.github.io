@@ -15,19 +15,19 @@ site:
   options:
     logo: https://raw.githubusercontent.com/jupyterhealth/jupyterhealth-docs/main/docs/_site/logo.png
     logo_dark: https://raw.githubusercontent.com/jupyterhealth/jupyterhealth-docs/main/docs/_site/logo-dark.png
-    logo_url: https://jupyterhealth-docs.readthedocs.io
+    logo_url: https://docs.jupyterhealth.org/
     logo_text: Docs
   nav:
     - title: Docs
-      url: https://jupyterhealth-docs.readthedocs.io
+      url: https://docs.jupyterhealth.org/
     - title: Exchange
-      url: https://jupyterhealth.github.io/software-documentation/
+      url: https://docs.jupyterhealth.org/software-documentation/
     - title: Client library
       url: https://jupyterhealth-client.readthedocs.io
     - title: Hub
-      url: https://jupyterhealth-hub.readthedocs.io/en/latest/
+      url: https://docs.jupyterhealth.org/hub/
     - title: Demos
-      url: https://jupyterhealth.github.io/demos/
+      url: https://docs.jupyterhealth.org/demos/
   parts:
     # Raw GitHub URLs so the parts resolve for sites that extend this file.
     navbar_end: https://raw.githubusercontent.com/jupyterhealth/jupyterhealth-docs/main/docs/_site/navbar_end.md

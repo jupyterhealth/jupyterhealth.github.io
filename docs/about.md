@@ -46,7 +46,7 @@ Together, these make up the {term}`JupyterHealth platform <platform>`.
   It solves the problem of integrating with health-adjacent data systems, consumer health products, etc.
   It also provides authenticated access to that data, scoped by permissions and patient consent.
 - The **{term}`JupyterHealth Hub <Hub>`** is an opinionated JupyterHub distribution that is set up alongside an Exchange.
-  It provides easy, authenticated access to the Exchange, with a collection of tools that are designed for technically capable users to use that data to create {term}`data products` for clinicians and patients.
+  It provides easy, authenticated access to the Exchange, with a collection of tools that are designed for technically capable users to use that data to create {term}`data products <data product>` for clinicians and patients.
   The [Hub configuration is public](https://github.com/2i2c-org/infrastructure/tree/main/config/clusters/jupyter-health), so others can replicate it wherever they like.
 
 The {term}`client library` is a Python tool that lets you quickly pull data from the {term}`Exchange`.
