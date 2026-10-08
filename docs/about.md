@@ -61,17 +61,3 @@ JupyterHealth follows the same design principles for its technology that Jupyter
   For example, an organization that has its own computing infrastructure could run an Exchange and connect it to that infrastructure instead of a Hub.
 - **Built on open standards.** Data is stored and served with standards like {term}`FHIR` and {term}`Open mHealth`, so it works with other tools in health care.
 - **Open source and replicable.** The code and deployment configuration are public, so anybody can run their own deployment.
-
-## Origins and governance
-
-JupyterHealth was founded at UC Berkeley and UCSF, and is developed with partners across the open-source scientific computing and digital health communities.
-It is governed as a [JupyterHub subproject](https://github.com/jupyterhub/team-compass/issues/752).
-See the [team page](https://jupyterhealth.org/team) for who works on it, and [use cases](https://jupyterhealth.org/use-cases) for where it's used.
-
-## Primary sources
-
-- [Platform page on jupyterhealth.org](https://jupyterhealth.org/platform): the platform's components and the standards it uses.
-- [JupyterCon 2025 talk](https://www.youtube.com/watch?v=zOeLIFt-z3M): a platform overview from the project leads.
-- [IEEE Pulse article](https://doi.org/10.1109/mpuls.2025.3618427): an interview with co-director Ida Sim on open infrastructure for health wearables.
-- [Berkeley launch announcement](https://cdss.berkeley.edu/news/berkeley-launches-agile-metabolic-health-and-open-platforms-initiative): the initiative that started the project.
-- [JupyterHub subproject proposal](https://github.com/jupyterhub/team-compass/issues/752): why the project joined JupyterHub, and what it set out to do.
