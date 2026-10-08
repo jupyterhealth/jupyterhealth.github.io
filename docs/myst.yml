@@ -3,7 +3,7 @@ extends:
   - ./_site/site.yml
 project:
   title: JupyterHealth Docs
-  github: https://github.com/jupyterhealth/jupyterhealth-docs
+  github: https://github.com/jupyterhealth/jupyterhealth.github.io
   references:
     jhe: https://docs.jupyterhealth.org/software-documentation/
     hub: https://docs.jupyterhealth.org/hub/
@@ -21,6 +21,8 @@ project:
     - file: community.md
     - file: glossary.md
 site:
+  options:
+    analytics_plausible: jupyter-documentation
   parts:
     navbar_end: _site/navbar_end.md
     footer: _site/footer.md

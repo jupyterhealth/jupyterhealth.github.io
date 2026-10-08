@@ -1,7 +1,7 @@
 ```{footer}
 title: JupyterHealth
 description: Open infrastructure for health care. Open software, shared standards, private data.
-logo: https://raw.githubusercontent.com/jupyterhealth/jupyterhealth-docs/main/docs/_site/logo.png
+logo: https://raw.githubusercontent.com/jupyterhealth/jupyterhealth.github.io/main/docs/_site/logo.png
 copyright: © JupyterHealth contributors.
 
 links:

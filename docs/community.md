@@ -13,7 +13,7 @@ See [jupyterhealth.org](https://jupyterhealth.org/#contact) to talk to the team 
 ## Contributing
 
 Open an issue in a component's repository, or ask in Zulip if you're not sure where something belongs.
-Fixes to this site go to [jupyterhealth-docs](https://github.com/jupyterhealth/jupyterhealth-docs).
+Fixes to this site go to [jupyterhealth.github.io](https://github.com/jupyterhealth/jupyterhealth.github.io).
 
 ## Origins and governance
 

@@ -1,7 +1,7 @@
 # Shared navbar, footer, and plugins for all JupyterHealth docs sites.
 # Other sites include this with:
 #   extends:
-#     - https://raw.githubusercontent.com/jupyterhealth/jupyterhealth-docs/main/docs/_site/site.yml
+#     - https://raw.githubusercontent.com/jupyterhealth/jupyterhealth.github.io/main/docs/_site/site.yml
 # All links are absolute URLs so they resolve from any site.
 version: 1
 project:
@@ -13,8 +13,8 @@ project:
 site:
   template: book-theme
   options:
-    logo: https://raw.githubusercontent.com/jupyterhealth/jupyterhealth-docs/main/docs/_site/logo.png
-    logo_dark: https://raw.githubusercontent.com/jupyterhealth/jupyterhealth-docs/main/docs/_site/logo-dark.png
+    logo: https://raw.githubusercontent.com/jupyterhealth/jupyterhealth.github.io/main/docs/_site/logo.png
+    logo_dark: https://raw.githubusercontent.com/jupyterhealth/jupyterhealth.github.io/main/docs/_site/logo-dark.png
     logo_url: https://docs.jupyterhealth.org/
     logo_text: Docs
   nav:
@@ -30,5 +30,5 @@ site:
       url: https://docs.jupyterhealth.org/demos/
   parts:
     # Raw GitHub URLs so the parts resolve for sites that extend this file.
-    navbar_end: https://raw.githubusercontent.com/jupyterhealth/jupyterhealth-docs/main/docs/_site/navbar_end.md
-    footer: https://raw.githubusercontent.com/jupyterhealth/jupyterhealth-docs/main/docs/_site/footer.md
+    navbar_end: https://raw.githubusercontent.com/jupyterhealth/jupyterhealth.github.io/main/docs/_site/navbar_end.md
+    footer: https://raw.githubusercontent.com/jupyterhealth/jupyterhealth.github.io/main/docs/_site/footer.md
