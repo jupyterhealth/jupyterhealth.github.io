@@ -12,7 +12,12 @@ project:
   toc:
     - file: index.md
     - file: about.md
-    - file: ecosystem.md
+      children:
+        - file: collect.md
+        - file: manage.md
+        - file: analyze.md
+        - file: share.md
+    - file: components.md
     - file: community.md
     - file: glossary.md
 site:

@@ -29,7 +29,7 @@ data product
 
 Exchange
 : The JupyterHealth Exchange (JHE).
-  A back-end web service that stores patient-consented health data and serves it through REST and {term}`FHIR` APIs, with an optional {term}`MCP` server.
+  A back-end web service that stores patient-consented health data and serves it through APIs, including a {term}`FHIR` API.
   Researchers create studies, patients consent and contribute data, and analysts can query it with the {term}`client library`.
   See the [Exchange documentation](xref:jhe).
 
@@ -52,8 +52,8 @@ FHIR
   [hl7.org/fhir](https://hl7.org/fhir/).
 
 SMART on FHIR
-: A standard that lets an EHR open an outside app with a patient already selected and give it limited FHIR access.
-  JupyterHealth uses it so that clinicians can open dashboards from their EHR.
+: A standard that lets an outside app log in to an EHR or patient portal and read limited FHIR data.
+  JupyterHealth uses it in two ways: clinicians open dashboards from their EHR, and patients bring in records from their hospital's patient portal.
   See [](share.md) and [smarthealthit.org](https://smarthealthit.org).
 
 Open mHealth
@@ -71,7 +71,7 @@ patient-generated data
 
 patient-consented data
 : Data that a patient has explicitly agreed to share with a specific study.
-  The Exchange only accepts the kinds of data a patient has consented to share.
+  The Exchange only accepts the kinds of data from a patient that they have consented to share.
   See [](xref:jhe/jhe/access-control) for what consent does and doesn't control.
 
 study
@@ -109,9 +109,4 @@ MCP
   An open protocol that lets AI assistants call tools and read data.
   The {term}`Exchange` has an optional MCP server, deployed separately, so AI tools can query health data.
 
-Zulip
-: The [#jupyterhealth channel on the Jupyter Zulip](https://jupyter.zulipchat.com/#narrow/channel/531270-jupyterhealth) is for general discussion with the project's community and team.
-
-Team Compass
-: The [JupyterHealth Team Compass](https://github.com/jupyterhealth/team-compass) has the project's goals, direction, and ways of working.
 :::
