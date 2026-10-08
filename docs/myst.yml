@@ -11,6 +11,8 @@ project:
     - file: community.md
     - file: glossary.md
 site:
+  options:
+    analytics_plausible: jupyter-documentation
   parts:
     navbar_end: _site/navbar_end.md
     footer: _site/footer.md
