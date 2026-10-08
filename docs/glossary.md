@@ -16,13 +16,13 @@ data product
 : Something a data scientist creates from health data to share with clinicians or patients, like a dashboard, app, or report. Often built in a notebook and shared with a tool like Voilà or Jupyter Book.
 
 Exchange
-: The JupyterHealth Exchange (JHE). A back-end web service that stores patient-consented health data and serves it through REST, {term}`FHIR`, and MCP APIs. Researchers create studies, patients consent and contribute data, and analysts can query it with the {term}`client library`. See the [Exchange documentation](https://docs.jupyterhealth.org/software-documentation/).
+: The JupyterHealth Exchange (JHE). A back-end web service that stores patient-consented health data and serves it through REST, {term}`FHIR`, and MCP APIs. Researchers create studies, patients consent and contribute data, and analysts can query it with the {term}`client library`. See the [Exchange documentation](xref:jhe).
 
 Hub
 : The JupyterHealth Hub. An opinionated [JupyterHub](https://jupyter.org/hub) {term}`distribution` that is set up alongside an {term}`Exchange`. It uses the Exchange for login and has the {term}`client library` pre-installed. Researchers and data scientists use it to explore data and build {term}`data products <data product>` for clinicians and patients. Its [configuration is public](https://github.com/2i2c-org/infrastructure/tree/main/config/clusters/jupyter-health) so anybody can copy it and reconfigure it for themselves.
 
 client library
-: `jupyterhealth-client`, a Python package for reading data from the Exchange. Returns observations as pandas DataFrames. See the [exchange client documentation](https://jupyterhealth-client.readthedocs.io).
+: `jupyterhealth-client`, a Python package for reading data from the Exchange. Returns observations as pandas DataFrames. See the [exchange client documentation](xref:client).
 
 FHIR
 : Fast Healthcare Interoperability Resources. The HL7 standard for exchanging clinical data over a web API. The Exchange stores data as FHIR, so clinical data from an EHR and wearable data use the same format. [hl7.org/fhir](https://hl7.org/fhir/).
@@ -46,7 +46,7 @@ EHR
 : Electronic health record. The clinical system a hospital or clinic uses to store patient charts, such as Epic or Cerner.
 
 CGM
-: Continuous glucose monitor. A wearable sensor that records blood glucose every few minutes. The {term}`Exchange` docs include a [CGM tutorial](https://docs.jupyterhealth.org/software-documentation/tutorial/tutorial-cgm).
+: Continuous glucose monitor. A wearable sensor that records blood glucose every few minutes. The {term}`Exchange` docs include a [CGM tutorial](xref:jhe/tutorial/tutorial-cgm).
 
 MCP
 : Model Context Protocol. An open protocol that lets AI assistants call tools and read data. The {term}`Exchange` exposes an MCP server so AI tools can query health data.

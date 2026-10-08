@@ -46,7 +46,7 @@ These pages describe what the project is building toward. Some pieces are furthe
 
 ## Get access
 
-To try JupyterHealth, [sign up for the demo Exchange](https://docs.jupyterhealth.org/hub/sign-up/) and then [log in to the demo Hub](https://docs.jupyterhealth.org/hub/log-in/).
+To try JupyterHealth, [sign up for the demo Exchange](xref:hub/sign-up) and then [log in to the demo Hub](xref:hub/log-in).
 The demo Exchange and Hub are hosted at UC Berkeley.
 Other institutions may set up access differently, for example by connecting their own Exchange to an existing computing environment instead of a Hub.
 
@@ -62,7 +62,7 @@ Log in to the {term}`Hub` with your {term}`Exchange` account, pull data into a n
 :::{card} Write Python that uses data from the Exchange
 :link: https://jupyterhealth-client.readthedocs.io
 The {term}`client library` returns observations as pandas DataFrames.
-The [{term}`CGM` tutorial](https://docs.jupyterhealth.org/software-documentation/tutorial/tutorial-cgm) is an end-to-end example.
+The [{term}`CGM` tutorial](xref:jhe/tutorial/tutorial-cgm) is an end-to-end example.
 :::
 
 :::{card} Run the Exchange for your organization
