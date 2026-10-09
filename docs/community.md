@@ -12,9 +12,16 @@ See [jupyterhealth.org](https://jupyterhealth.org/#contact) to talk to the team 
 
 ## Contributing
 
+JupyterHealth is an open project, and we welcome contributions from anyone.
+While it began with the core team described in @community:origins, it aims to grow its community and welcome new contributors and co-leads.
+
+There are many ways to help!
+Reporting a bug, improving the docs, sharing how you use JupyterHealth, and answering questions in Zulip all make a difference.
+
 Open an issue in a component's repository, or ask in Zulip if you're not sure where something belongs.
 Fixes to this site go to [jupyterhealth.github.io](https://github.com/jupyterhealth/jupyterhealth.github.io).
 
+(community:origins)=
 ## Origins and governance
 
 JupyterHealth was founded at UC Berkeley and UCSF, and is developed with partners in open source scientific computing and digital health.
