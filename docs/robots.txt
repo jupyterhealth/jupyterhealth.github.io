@@ -1,7 +1,0 @@
-# Temporary: keep our pages out of search engines until we're ready.
-# Copied over MyST's robots.txt by `nox -s docs`. Delete this file and that copy step to allow indexing.
-# This is the docs.jupyterhealth.org root, so it also covers /hub/. Other org sites stay indexed.
-User-agent: *
-Allow: /software-documentation/
-Allow: /demos/
-Disallow: /
