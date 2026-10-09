@@ -1,6 +1,6 @@
 # How JupyterHealth works
 
-JupyterHealth builds open source tools, and recipes for deploying them, that give patients, clinicians, and analysts more control over health data.
+JupyterHealth is a project that develops open source infrastructure for building and deploying digital health tools that give patients, clinicians, and analysts more control over health data.
 
 ## The core workflow
 

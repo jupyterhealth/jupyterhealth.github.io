@@ -6,7 +6,7 @@ This page links to the documentation for each component.
 - **[JupyterHealth Exchange](xref:jhe)**: stores {term}`patient-consented data` and serves it over REST and {term}`FHIR`, with an optional {term}`MCP` server.
   The Exchange also handles login for the {term}`Hub`.
 - **[JupyterHealth client](xref:client)**: Python library for reading {term}`Exchange` data.
-- **[JupyterHealth Hub](xref:hub)**: hosted JupyterHub for analyzing Exchange data and deploying Voilà apps for clinicians.
+- **[JupyterHealth Hub](xref:hub)**: hosted JupyterHub for analyzing Exchange data and prototyping dashboards.
   Its [configuration is public](https://github.com/2i2c-org/infrastructure/tree/main/config/clusters/jupyter-health).
 - **[Demos](xref:demos)**: example notebooks, each with a researcher view in JupyterLab and a clinician view as a Voilà dashboard.
   The demos only run on the demo deployment.

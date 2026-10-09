@@ -27,11 +27,10 @@ Both are still being developed, so the details may change.
   - Day-to-day clinical care
 :::
 
-Hub dashboards are the easiest place to start.
+The Hub is mainly for analysis and research, like prototyping a dashboard or sharing it with a research team.
 See the [Hub documentation](xref:hub) and the [demos](xref:demos), which only run on the demo deployment.
-
-The rest of this section covers the second path, which uses {term}`SMART on FHIR`.
-It's the better fit for day-to-day care, because clinicians already work in their EHR all day.
+For embedding visualizations in clinical systems, we recommend launching them from the EHR with {term}`SMART on FHIR` (see [](#share:where-to-start)).
+The next section covers this path.
 
 ### What SMART on FHIR does
 
@@ -67,6 +66,7 @@ Two things must be set up first:
 - **The patient has to exist in both systems with the same {term}`MRN`.** The app uses the MRN to match the EHR's patient to the Exchange's patient.
   See [](xref:jhe/jhe/patient-identifiers).
 
+(share:where-to-start)=
 ### Where to start
 
 - **[SMART on FHIR provider template](https://github.com/jupyterhealth/jupyterhealth-sof-provider-template)**: start here.
