@@ -5,9 +5,14 @@ site:
 ---
 
 **Open infrastructure for health care.**
-JupyterHealth connects wearable, clinical, and {term}`patient-generated data` to computational and AI tools for health care.
-It is open source, built on {term}`Jupyter` and open standards like {term}`FHIR` and {term}`Open mHealth`, and made for researchers, clinicians, and patients.
-Its two main pieces are the {term}`Exchange`, which stores {term}`patient-consented data`, and the {term}`Hub`, where people analyze that data and build {term}`data products <data product>` for clinicians and patients.
+JupyterHealth is a project that connects wearable, clinical, and {term}`patient-generated data` to computational and AI tools for health care.
+All of the tools it builds are open source, built on {term}`Jupyter` and open standards like {term}`FHIR` and {term}`Open mHealth`, and made for researchers, clinicians, and patients.
+
+JupyterHealth's two main components are the {term}`Exchange`, which stores {term}`patient-consented data`, and the {term}`Hub`, where people analyze that data and build {term}`data products <data product>` for clinicians and patients.
+Those data products can open inside an {term}`EHR` with {term}`SMART on FHIR`, so clinicians use them from a patient's chart.
+
+**Thinking about what you could build with JupyterHealth tools, or whether it fits your organization?**
+Start with the [use cases](https://jupyterhealth.org/use-cases) and [](about.md), or [talk to the team](https://jupyterhealth.org/#contact).
 
 Here's the workflow it supports.
 
@@ -77,5 +82,3 @@ To get started exploring some data, you can:
 These links are specific to the Berkeley demo.
 Other institutions may run their own Exchange and Hub, or connect their Exchange to a different computing environment.
 If you use JupyterHealth through another institution, use the links and instructions it gives you.
-
-To learn who uses JupyterHealth, see the [use cases](https://jupyterhealth.org/use-cases), or [contact the team](https://jupyterhealth.org/#contact) about running it at your institution.
