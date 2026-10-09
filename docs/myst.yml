@@ -4,10 +4,20 @@ extends:
 project:
   title: JupyterHealth Docs
   github: https://github.com/jupyterhealth/jupyterhealth.github.io
+  references:
+    jhe: https://docs.jupyterhealth.org/software-documentation/
+    hub: https://docs.jupyterhealth.org/hub/
+    demos: https://docs.jupyterhealth.org/demos/
+    client: https://jupyterhealth-client.readthedocs.io/en/latest/
   toc:
     - file: index.md
     - file: about.md
-    - file: ecosystem.md
+      children:
+        - file: collect.md
+        - file: manage.md
+        - file: analyze.md
+        - file: share.md
+    - file: components.md
     - file: community.md
     - file: glossary.md
 site:

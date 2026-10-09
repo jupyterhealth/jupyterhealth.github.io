@@ -5,88 +5,77 @@ site:
 ---
 
 **Open infrastructure for health care.**
-JupyterHealth is a secure, connective layer for bringing wearable, clinical, and {term}`patient-generated data` into modern computational and AI-enabled health care workflows.
-It is open source, built on open standards like {term}`FHIR` and {term}`Open mHealth`, and made for researchers, clinicians, and patients.
-It has three main pieces:
+JupyterHealth connects wearable, clinical, and {term}`patient-generated data` to computational and AI tools for health care.
+It is open source, built on {term}`Jupyter` and open standards like {term}`FHIR` and {term}`Open mHealth`, and made for researchers, clinicians, and patients.
+Its two main pieces are the {term}`Exchange`, which stores {term}`patient-consented data`, and the {term}`Hub`, where people analyze that data and build {term}`data products <data product>` for clinicians and patients.
 
-- The {term}`Exchange` stores {term}`patient-consented data` and serves it through REST, FHIR, and {term}`MCP` APIs.
-- The {term}`Hub` is where researchers and data scientists analyze that data, and the platform for building and deploying dashboards and apps for clinicians and other downstream users.
-- The {term}`client library` reads Exchange data from Python for analysis and re-use.
-
-## Try JupyterHealth: Berkeley demo
-
-You can try JupyterHealth using the Berkeley demo {term}`Exchange` and {term}`Hub`. The Exchange contains sample data that you can explore in a notebook on the Hub. You'll need an invite code to create an account. If you weren't given one, ask in the {term}`#jupyterhealth Zulip channel <Zulip>`.
-
-**Getting started takes two steps:**
-
-1. Create an account on the [Berkeley demo Exchange](https://berkeley-jhe-demo.jupyterhealth.org/) using your invite code.
-2. Open the [Berkeley demo Hub](https://jupyter-health.2i2c.cloud/) to use JupyterLab, where you can create notebooks and use the AI chat interface.
-
-From there, follow the [Explore your data guide](https://docs.jupyterhealth.org/hub/run-an-analysis/) to start with a blank notebook or [open the CGM example notebook](https://jupyter-health.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fjupyterhealth%2Fdemos&urlpath=lab%2Ftree%2Fdemos%2Fdashboards%2Fresearcher-view-cgm.ipynb&branch=main) to add it to your Hub workspace.
-
-These instructions and links are specific to the Berkeley demo. If you’re using JupyterHealth through another institution, it may have its own Exchange and Hub, or connect its to Exchange using a different computational environment. Use the URLs and access instructions provided by your institution.
-
-## How JupyterHealth works
-
-The diagram shows the broader workflow that JupyterHealth aims to support.[^1]
-
-[^1]: Adapted from the [JupyterHealth integration page](https://jupyterhealth.org/#integration).
-
+Here's the workflow it supports.
 
 ```{mermaid}
-flowchart BT
-  sources["<b>DATA SOURCES</b><br>EHRs · devices · sensors · apps · surveys"]
-  subgraph platform["<b>JupyterHealth Platform</b>"]
-    direction BT
-    exchange["<b>EXCHANGE</b><br>Ingestion · Standardization · Storage"]
-    hub["<b>HUB</b><br>JupyterAI · Notebooks · Dashboards · APIs"]
-    exchange ~~~ hub
-  end
-  subgraph outputs[" "]
-    discovery["Discovery"]
-    decision["Decision support"]
-    care["Remote care"]
-  end
-  sources --> platform --> outputs
+flowchart LR
+  collect["<b>1. Collect</b><br>Patients share data from devices, apps, and health records"]
+  manage["<b>2. Manage</b><br>The Exchange stores it and controls who can see it"]
+  analyze["<b>3. Analyze</b><br>Researchers explore it and build dashboards on the Hub"]
+  share["<b>4. Share</b><br>Clinicians and patients open those dashboards"]
+  collect --> manage --> analyze --> share
   %% Translucent fills so the diagram works in light and dark mode
   classDef jh fill:#f0702c1a,stroke:#f0702c
   classDef neutral fill:#8881,stroke:#888
-  class platform,hub,exchange jh
-  class sources,discovery,decision,care neutral
-  style outputs fill:none,stroke:none
+  class manage,analyze jh
+  class collect,share neutral
 ```
 
-This site describes the project at a high level and points to each component's documentation.
-Read [About the project](about.md) for its origins and primary materials.
-
 :::{note} JupyterHealth is under active development
-These pages describe what the project is building toward. Some pieces are further along than others.
+These pages describe what the project is building toward.
+Some pieces are further along than others.
 :::
 
 ## What do you want to do?
 
+Each page covers one step of the workflow.
+
 ::::{grid} 1 1 2 2
 
-:::{card} Analyze data and build dashboards on the Hub
-:link: https://docs.jupyterhealth.org/hub/
-Log in to the {term}`Hub` with your {term}`Exchange` account, pull data into a notebook with the client library, and run your own analyses.
+:::{card} 1. Collect patient data
+:link: collect.md
+Set up a study in the {term}`Exchange`, invite patients, and bring in data from their devices and health records.
 :::
 
-:::{card} Write Python that uses data from the Exchange
-:link: https://jupyterhealth-client.readthedocs.io
-The {term}`client library` returns observations as pandas DataFrames.
-The [{term}`CGM` tutorial](https://docs.jupyterhealth.org/software-documentation/tutorial/tutorial-cgm) is an end-to-end example.
+:::{card} 2. Manage access to data
+:link: manage.md
+Run your own Exchange, and decide who can see which data and which tools can connect to it.
 :::
 
-:::{card} Run the Exchange for your organization
-:link: https://docs.jupyterhealth.org/software-documentation/
-Deploy your own {term}`Exchange`.
-The docs cover setup, access control, the FHIR API, and the data model.
+:::{card} 3. Analyze data and build data products
+:link: analyze.md
+Explore Exchange data on the {term}`Hub` or in your own Python environment, and turn it into dashboards.
 :::
 
-:::{card} Deploy an app that uses the Exchange
-:link: https://github.com/jupyterhealth/jupyterhealth-sof-provider-template
-The linked repository lets you turn a notebook into a Voilà application. It can be served either on the {term}`Hub` or as a standalone app that an {term}`EHR` opens with {term}`SMART on FHIR`.
+:::{card} 4. Share data products with clinicians and patients
+:link: share.md
+Put a dashboard on the Hub, or in front of clinicians in their {term}`EHR` with {term}`SMART on FHIR`.
 :::
 
 ::::
+
+## Try the Berkeley demo
+
+You can try JupyterHealth with the Berkeley demo {term}`Exchange` and {term}`Hub`.
+The Exchange has sample data that you can explore in a notebook on the Hub.
+You'll need an invite code to create an account.
+To request one, ask in the [#jupyterhealth Zulip channel](https://jupyter.zulipchat.com/#narrow/channel/531270-jupyterhealth).
+
+1. Create an account on the [Berkeley demo Exchange](https://berkeley-jhe-demo.jupyterhealth.org/) with your invite code.
+2. Open the [Berkeley demo Hub](https://jupyter-health.2i2c.cloud/) to use JupyterLab, where you can create notebooks and use the AI chat interface.
+
+To get started exploring some data, you can:
+
+- [Add the blood pressure tutorial to your Hub workspace](https://jupyter-health.2i2c.cloud/hub/user-redirect/git-pull?branch=main&repo=https%3A%2F%2Fgithub.com%2Fjupyterhealth%2Fdemos&urlpath=lab%2Ftree%2Fdemos%2Ftutorials%2Fgetting-started-blood-pressure.ipynb).
+- [Add the CGM tutorial to your Hub workspace](https://jupyter-health.2i2c.cloud/hub/user-redirect/git-pull?branch=main&repo=https%3A%2F%2Fgithub.com%2Fjupyterhealth%2Fdemos&urlpath=lab%2Ftree%2Fdemos%2Fdashboards%2Fresearcher-view-cgm.ipynb).
+- Or follow [](xref:hub/run-an-analysis) to start with a blank notebook.
+
+These links are specific to the Berkeley demo.
+Other institutions may run their own Exchange and Hub, or connect their Exchange to a different computing environment.
+If you use JupyterHealth through another institution, use the links and instructions it gives you.
+
+To learn who uses JupyterHealth, see the [use cases](https://jupyterhealth.org/use-cases), or [contact the team](https://jupyterhealth.org/#contact) about running it at your institution.
