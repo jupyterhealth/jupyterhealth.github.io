@@ -1,5 +1,3 @@
-import shutil
-
 import nox
 
 nox.options.default_venv_backend = "uv"
@@ -12,8 +10,6 @@ def docs(session):
     session.install("mystmd")
     session.chdir("docs")
     session.run("myst", "build", "--html", *session.posargs)
-    # Temporary: replace MyST's robots.txt to keep the site out of search engines.
-    shutil.copy("robots.txt", "_build/html/robots.txt")
 
 
 @nox.session(name="docs:live")
