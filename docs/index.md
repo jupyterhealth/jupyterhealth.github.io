@@ -69,7 +69,8 @@ To request one, ask in the [#jupyterhealth Zulip channel](https://jupyter.zulipc
 2. Open the [Berkeley demo Hub](https://jupyter-health.2i2c.cloud/) to use JupyterLab, where you can create notebooks and use the AI chat interface.
 
 To get started exploring some data, you can:
-[Add the blood pressure tutorial to your Hub workspace](https://jupyter-health.2i2c.cloud/hub/user-redirect/git-pull?branch=main&repo=https%3A%2F%2Fgithub.com%2Fjupyterhealth%2Fdemos&urlpath=lab%2Ftree%2Fdemos%2Ftutorials%2Fgetting-started-blood-pressure.ipynb).
+
+- [Add the blood pressure tutorial to your Hub workspace](https://jupyter-health.2i2c.cloud/hub/user-redirect/git-pull?branch=main&repo=https%3A%2F%2Fgithub.com%2Fjupyterhealth%2Fdemos&urlpath=lab%2Ftree%2Fdemos%2Ftutorials%2Fgetting-started-blood-pressure.ipynb).
 - [Add the CGM tutorial to your Hub workspace](https://jupyter-health.2i2c.cloud/hub/user-redirect/git-pull?branch=main&repo=https%3A%2F%2Fgithub.com%2Fjupyterhealth%2Fdemos&urlpath=lab%2Ftree%2Fdemos%2Fdashboards%2Fresearcher-view-cgm.ipynb).
 - Or follow [](xref:hub/run-an-analysis) to start with a blank notebook.
 
@@ -77,4 +78,4 @@ These links are specific to the Berkeley demo.
 Other institutions may run their own Exchange and Hub, or connect their Exchange to a different computing environment.
 If you use JupyterHealth through another institution, use the links and instructions it gives you.
 
-To learn who uses JupyterHealth, see the [use cases](https://jupyterhealth.org/use-cases), or [contact the team](https://jupyterhealth.org/#contact) about running it at your organization.
+To learn who uses JupyterHealth, see the [use cases](https://jupyterhealth.org/use-cases), or [contact the team](https://jupyterhealth.org/#contact) about running it at your institution.

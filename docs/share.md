@@ -81,7 +81,7 @@ Two things must be set up first:
 
 :::{warning} These are early-stage tools
 The template is a starting point, not a production app.
-Before using it with real patients, your organization still needs to register the app with its EHR, do a security review, and plan for many clinicians using it at once.
+Before using it with real patients, your institution still needs to register the app with its EHR, do a security review, and plan for many clinicians using it at once.
 The template's [scope notes](https://github.com/jupyterhealth/jupyterhealth-sof-provider-template#scope) list what's missing.
 :::
 

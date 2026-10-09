@@ -35,7 +35,9 @@ Exchange
 
 organization
 : A group in the {term}`Exchange` that is used to manage access to data.
-  
+  Researchers, clinicians, patients, and studies belong to organizations.
+  See [](xref:jhe/jhe/access-control).
+
 Hub
 : The JupyterHealth Hub.
   An opinionated [JupyterHub](https://jupyter.org/hub) {term}`distribution` that is set up alongside an {term}`Exchange`.

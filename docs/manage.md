@@ -4,11 +4,12 @@ Once data is in the {term}`Exchange`, an administrator or data engineer configur
 
 ## How it works
 
-- **Run an Exchange.** If your institution already runs a JupyterHealth Exchange, you can use that. Otherwise, your organization can run its own.
+- **Run an Exchange.** If your institution already runs a JupyterHealth Exchange, you can use that.
+  Otherwise, you can run your own.
   Running your own is a job for an engineer or IT team, who can start with the Exchange's [Getting Started guide](xref:jhe/jhe/getting-started).
-  If your organization runs its cloud services on Kubernetes, the [Helm chart](https://github.com/jupyterhealth/helm-charts) installs the Exchange there.
-  To talk through running JupyterHealth at your organization, [contact the team](https://jupyterhealth.org/#contact).
-- **Decide who can see what.** In the Exchange, researchers and clinicians belong to {term}`organizations`, which group users and patients for access control.
+  If your institution runs its cloud services on Kubernetes, the [Helm chart](https://github.com/jupyterhealth/helm-charts) installs the Exchange there.
+  To talk through running JupyterHealth at your institution, [contact the team](https://jupyterhealth.org/#contact).
+- **Decide who can see what.** In the Exchange, researchers and clinicians belong to {term}`organizations <organization>`, which group users and patients for access control.
   They can read data for the patients in their organizations, and their role (viewer, member, or manager) controls what they can change.
   Patient consent decides what data gets into the Exchange.
   Once data is in, consent doesn't limit which people in the organization can read it.
