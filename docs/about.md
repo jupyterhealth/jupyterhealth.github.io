@@ -7,13 +7,13 @@ JupyterHealth builds open source tools, and recipes for deploying them, that giv
 JupyterHealth is built around four steps:
 
 1. **[](collect.md).** An organization sets up a {term}`study` in a JupyterHealth {term}`Exchange`.
-   Patients join the study, choose what to share, and set up the devices and apps that send data to the Exchange.
+   Patients join the study, choose what to share, and connect their relevant devices, apps, or health records to send data to the Exchange.
    The Exchange only accepts the kinds of data from a patient that they have {term}`consented <patient-consented data>` to share.
-2. **[](manage.md).** An administrator or data engineer runs the Exchange.
-   The administrator decides who can access the data, and which applications can read it through the Exchange's APIs.
+2. **[](manage.md).** An administrator or data engineer configures access to the Exchange.
+   The Exchange controls which users can access the data, and which applications can read it through the Exchange's APIs.
 3. **[](analyze.md).** A data scientist, researcher, or developer pulls data from the Exchange into an environment like the {term}`Hub` for analysis.
-   The analyst turns the results into a {term}`data product` (like a dashboard or website), with a tool like Voilà, which shows a notebook as a dashboard, or Jupyter Book.
-4. **[](share.md).** Clinicians and patients open that data product on the Hub, or from their {term}`EHR`, without writing any code.
+   They can turn results into a {term}`data product`, like a dashboard or website, using tools like Voilà or Jupyter Book.
+4. **[](share.md).** Data products can then be deployed as applications or dashboards for clinicians and patients to use. Clinician-facing applications can also be launched directly from an {term}`EHR`, so a clinician can open the application from a patient's chart without leaving their usual workflow.
 
 See [](components.md) for the documentation of each tool in this workflow.
 

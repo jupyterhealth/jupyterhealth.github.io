@@ -23,8 +23,8 @@ The Exchange gives that data one home, in open standard formats, and lets patien
      See [](xref:jhe/jhe/patient-access-integration).
    - **Any other app**, through the Exchange's [FHIR API](xref:jhe/jhe/fhir/fhir-api).
 
-Everything can be read through the Exchange's {term}`FHIR` API.
-Wearable readings are FHIR Observations whose values use the {term}`Open mHealth` and {term}`IEEE 1752` formats, so a reading has the same structure no matter which device it came from.
+Health data in the Exchange is available through its {term}`FHIR` API.
+Wearable readings are represented as FHIR Observations using {term}`Open mHealth` and {term}`IEEE 1752` formats, giving data from different supported devices a common structure no matter which device it came from.
 
 ## Learn more
 

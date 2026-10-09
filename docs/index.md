@@ -63,12 +63,15 @@ Put a dashboard on the Hub, or in front of clinicians in their {term}`EHR` with 
 You can try JupyterHealth with the Berkeley demo {term}`Exchange` and {term}`Hub`.
 The Exchange has sample data that you can explore in a notebook on the Hub.
 You'll need an invite code to create an account.
-If you weren't given one, ask in the [#jupyterhealth Zulip channel](https://jupyter.zulipchat.com/#narrow/channel/531270-jupyterhealth).
+To request one, ask in the [#jupyterhealth Zulip channel](https://jupyter.zulipchat.com/#narrow/channel/531270-jupyterhealth).
 
 1. Create an account on the [Berkeley demo Exchange](https://berkeley-jhe-demo.jupyterhealth.org/) with your invite code.
 2. Open the [Berkeley demo Hub](https://jupyter-health.2i2c.cloud/) to use JupyterLab, where you can create notebooks and use the AI chat interface.
 
-From there, follow [](xref:hub/run-an-analysis) to start with a blank notebook, or [open the CGM example notebook](https://jupyter-health.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fjupyterhealth%2Fdemos&urlpath=lab%2Ftree%2Fdemos%2Fdashboards%2Fresearcher-view-cgm.ipynb&branch=main) to add it to your Hub workspace.
+To get started exploring some data, you can:
+[Add the blood pressure tutorial to your Hub workspace](https://jupyter-health.2i2c.cloud/hub/user-redirect/git-pull?branch=main&repo=https%3A%2F%2Fgithub.com%2Fjupyterhealth%2Fdemos&urlpath=lab%2Ftree%2Fdemos%2Ftutorials%2Fgetting-started-blood-pressure.ipynb).
+- [Add the CGM tutorial to your Hub workspace](https://jupyter-health.2i2c.cloud/hub/user-redirect/git-pull?branch=main&repo=https%3A%2F%2Fgithub.com%2Fjupyterhealth%2Fdemos&urlpath=lab%2Ftree%2Fdemos%2Fdashboards%2Fresearcher-view-cgm.ipynb).
+- Or follow [](xref:hub/run-an-analysis) to start with a blank notebook.
 
 These links are specific to the Berkeley demo.
 Other institutions may run their own Exchange and Hub, or connect their Exchange to a different computing environment.

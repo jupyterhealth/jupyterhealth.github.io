@@ -3,7 +3,7 @@
 The project-wide docs for JupyterHealth.
 For example: what the project is, how the pieces fit together, and where to find each component's docs.
 [jupyterhealth.org](https://jupyterhealth.org) is the project's public website.
-This site has more reference information and is more complete in general.
+This site provides more detailed technical and reference information.
 
 ## Preview the site locally
 

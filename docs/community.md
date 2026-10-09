@@ -4,6 +4,7 @@ JupyterHealth follows the [Jupyter Code of Conduct](https://jupyter.org/governan
 See [jupyterhealth.org](https://jupyterhealth.org/#contact) to talk to the team about a deployment or integration.
 
 - Chat in the [#jupyterhealth channel on the Jupyter Zulip](https://jupyter.zulipchat.com/#narrow/channel/531270-jupyterhealth).
+- Use [GitHub Discussions](https://github.com/orgs/jupyterhealth/discussions) to ask questions, share your experience, or report problems you run into.
 - Code lives at [github.com/jupyterhealth](https://github.com/jupyterhealth).
 - Software discussion that spans components goes in [jupyterhealth-software](https://github.com/jupyterhealth/jupyterhealth-software).
   Components generally have their own repositories and issue trackers.
@@ -26,7 +27,7 @@ Fixes to this site go to [jupyterhealth.github.io](https://github.com/jupyterhea
 
 JupyterHealth was founded at UC Berkeley and UCSF, and is developed with partners in open source scientific computing and digital health.
 JupyterHealth is governed as a [JupyterHub subproject](https://github.com/jupyterhub/team-compass/issues/752).
-The [team page](https://jupyterhealth.org/team) lists who works on JupyterHealth.
+The [JupyterHealth website](https://jupyterhealth.org/) shows the team and participating institutions.
 
 ## Learn more about JupyterHealth
 

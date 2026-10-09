@@ -33,6 +33,9 @@ Exchange
   Researchers create studies, patients consent and contribute data, and analysts can query it with the {term}`client library`.
   See the [Exchange documentation](xref:jhe).
 
+organization
+: A group in the {term}`Exchange` that is used to manage access to data.
+  
 Hub
 : The JupyterHealth Hub.
   An opinionated [JupyterHub](https://jupyter.org/hub) {term}`distribution` that is set up alongside an {term}`Exchange`.

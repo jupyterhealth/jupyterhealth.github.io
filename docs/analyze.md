@@ -22,6 +22,7 @@ The demos only run on the demo deployment at UC Berkeley.
 
 - [](xref:hub/run-an-analysis): a first notebook, from a blank page.
 - [Client library documentation](xref:client)
-- [{term}`CGM` tutorial](xref:jhe/tutorial/tutorial-cgm): an end-to-end example.
+- [Blood pressure tutorial](xref:demos/getting-started-blood-pressure): a getting started tutorial for pulling and plotting blood pressure data from the Exchange.
+- [{term}`CGM` tutorial](xref:demos/researcher-view-cgm): an end-to-end tutorial for pulling and analyzing continuous glucose monitor data from the Exchange.
 
 Next step: [](share.md).
