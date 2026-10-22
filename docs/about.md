@@ -18,6 +18,16 @@ JupyterHealth is built around four steps:
 
 See [](components.md) for the documentation of each tool in this workflow.
 
+## A shared foundation for specific solutions
+
+JupyterHealth provides a shared infrastructure layer for collecting, storing, accessing, analyzing, and displaying health data.
+Teams can use JupyterHealth tools for specific healthcare problems, conditions, or care settings (for example, to build services for diabetes, hypertension, or heart failure).
+
+% To edit this diagram, open the SVG in excalidraw.com or the VS Code Excalidraw extension.
+```{image} images/foundation.excalidraw.svg
+:alt: Pillars for diabetes, hypertension, heart failure, perioperative monitoring, and more, built by partner teams. They rest on a shared JupyterHealth base whose workflow runs Collect, Manage (the Exchange), then Analyze, Share (the Hub).
+```
+
 ## Design principles
 
 JupyterHealth follows the same design principles as {term}`Jupyter`:
