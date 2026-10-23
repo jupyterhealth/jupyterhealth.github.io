@@ -32,6 +32,7 @@ The [JupyterHealth website](https://jupyterhealth.org/) shows the team and parti
 ## Learn more about JupyterHealth
 
 - [Platform page on jupyterhealth.org](https://jupyterhealth.org/platform): the platform's components and the standards it uses.
+- [JupyterDay 2026 keynote slides](https://sessionize.com/download/inkasseg~TfGf733NELJbVnPosRTXgg.pptx~jupyterday-2026_final.pptx): Ida Sim's overview of the project's motivation and strategy.
 - [JupyterCon 2025 talk](https://www.youtube.com/watch?v=zOeLIFt-z3M): a platform overview from the project leads.
 - [IEEE Pulse article](https://doi.org/10.1109/mpuls.2025.3618427): an interview with co-director Ida Sim on open infrastructure for health wearables.
 - [Berkeley launch announcement](https://cdss.berkeley.edu/news/berkeley-launches-agile-metabolic-health-and-open-platforms-initiative): the initiative that started the project.
